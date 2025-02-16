@@ -1,0 +1,54 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { Server } from 'lucide-react';
+
+const Footer = () => {
+  const { t } = useTranslation();
+
+  return (
+    <footer className="bg-[#111] py-12 border-t border-[#1a1a1a]">
+      <div className="container mx-auto px-6">
+        <div className="grid md:grid-cols-4 gap-8">
+          <div>
+            <div className="flex items-center space-x-2 mb-4">
+              <Server className="w-6 h-6 text-[#ff3333]" />
+              <span className="text-lg font-bold">GameServe</span>
+            </div>
+            <p className="text-gray-400">
+              Premium gaming VPS solutions for the most demanding players.
+            </p>
+          </div>
+          <div>
+            <h4 className="font-bold mb-4">{t('footer.company')}</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.about')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.careers')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.blog')}</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-bold mb-4">{t('footer.support')}</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.helpCenter')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.documentation')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.status')}</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-bold mb-4">{t('footer.legal')}</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.privacy')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.terms')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.security')}</a></li>
+            </ul>
+          </div>
+        </div>
+        <div className="mt-12 pt-8 border-t border-[#1a1a1a] text-center text-gray-400">
+          <p>{t('footer.copyright')}</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

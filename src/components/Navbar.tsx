@@ -1,0 +1,90 @@
+import React, { useState } from 'react';
+import { Server, Menu, X } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
+
+const Navbar = () => {
+  const { t } = useTranslation();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <nav className="fixed w-full bg-black/95 backdrop-blur-sm border-b border-[#1a1a1a] z-50">
+      <div className="container mx-auto px-6 py-4">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <div className="flex items-center space-x-2">
+            <Server className="w-6 h-6 text-[#ff3333] animate-float" />
+            <span className="text-lg font-orbitron font-bold">GameServe</span>
+          </div>
+
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center space-x-12">
+            <div className="flex items-center space-x-8">
+              <a href="#features" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+                {t('features.title')}
+              </a>
+              <a href="#plans" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+                {t('plans.title')}
+              </a>
+              <a href="#game-servers" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+                {t('gameServers.title')}
+              </a>
+            </div>
+
+            <div className="flex items-center space-x-6">
+              <LanguageSwitcher />
+              <button className="px-4 py-2 bg-[#ff3333] hover:bg-[#cc0000] rounded-lg text-sm font-medium transition-all duration-300">
+                {t('hero.startTrial')}
+              </button>
+            </div>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button 
+            className="md:hidden text-white hover:text-[#3366ff] transition-colors duration-300"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
+
+        {/* Mobile Menu */}
+        {isMenuOpen && (
+          <div className="md:hidden pt-4 pb-6">
+            <div className="flex flex-col space-y-4">
+              <a 
+                href="#features" 
+                className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t('features.title')}
+              </a>
+              <a 
+                href="#plans" 
+                className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t('plans.title')}
+              </a>
+              <a 
+                href="#game-servers" 
+                className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t('gameServers.title')}
+              </a>
+              <div className="pt-4 flex items-center justify-between">
+                <LanguageSwitcher />
+                <button className="px-4 py-2 bg-[#ff3333] hover:bg-[#cc0000] rounded-lg text-sm font-medium transition-all duration-300">
+                  {t('hero.startTrial')}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

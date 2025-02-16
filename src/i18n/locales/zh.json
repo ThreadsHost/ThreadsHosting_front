@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "about": "关于我们",
+    "services": "服务",
+    "testimonials": "用户评价",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "提升您的游戏基础设施",
+    "subtitle": "由游戏玩家打造的优质VPS解决方案。体验下一级别的服务器性能。",
+    "startTrial": "开始免费试用",
+    "viewPlans": "查看套餐"
+  },
+  "features": {
+    "title": "为什么选择GameServe",
+    "subtitle": "通过我们的游戏优化VPS解决方案，体验性能、可靠性和支持的完美结合。",
+    "ultraLowLatency": {
+      "title": "超低延迟",
+      "description": "通过我们优化的网络基础设施体验闪电般的响应时间。"
+    },
+    "ddosProtection": {
+      "title": "DDoS防护",
+      "description": "先进的DDoS攻击防护，确保服务器24/7在线。"
+    },
+    "globalNetwork": {
+      "title": "全球网络",
+      "description": "全球战略服务器位置，实现最佳性能。"
+    },
+    "highPerformance": {
+      "title": "高性能",
+      "description": "最新的AMD EPYC处理器和NVMe固态硬盘，实现最大速度。"
+    },
+    "uptime": {
+      "title": "99.99%运行时间",
+      "description": "企业级基础设施确保可靠服务。"
+    },
+    "instantSetup": {
+      "title": "即时设置",
+      "description": "通过我们的自动部署，几分钟内即可启动服务器。"
+    },
+    "resourceControl": {
+      "title": "资源控制",
+      "description": "通过我们的直观仪表板完全控制服务器资源。"
+    },
+    "support": {
+      "title": "24/7支持",
+      "description": "专业的游戏服务器支持团队全天候待命。"
+    },
+    "startTrial": "开始免费试用",
+    "learnMore": "了解更多"
+  },
+  "plans": {
+    "title": "选择您的战斗站",
+    "monthly": "月付",
+    "annual": "年付（节省20%）",
+    "mostPopular": "最受欢迎",
+    "saveYear": "每年节省 {amount}",
+    "perMonth": "/月",
+    "selectPlan": "选择套餐",
+    "starter": {
+      "name": "入门版",
+      "features": [
+        "基础24/7支持",
+        "DDoS防护",
+        "99.9% SLA保证",
+        "自动备份"
+      ]
+    },
+    "proGamer": {
+      "name": "专业玩家版",
+      "features": [
+        "优先24/7支持",
+        "高级DDoS防护",
+        "99.99% SLA保证",
+        "每日备份",
+        "自定义控制面板",
+        "游戏服务器模板"
+      ]
+    },
+    "elite": {
+      "name": "精英版",
+      "features": [
+        "VIP 24/7支持",
+        "企业级DDoS防护",
+        "99.99% SLA保证",
+        "每小时备份",
+        "自定义控制面板",
+        "游戏服务器模板",
+        "负载均衡",
+        "多区域部署"
+      ]
+    }
+  },
+  "gameServers": {
+    "title": "热门游戏服务器",
+    "orderNow": "立即订购"
+  },
+  "testimonials": {
+    "title": "玩家评价",
+    "roles": {
+      "proGamer": "职业玩家",
+      "esportsManager": "电竞经理",
+      "gameDev": "游戏开发者",
+      "contentCreator": "内容创作者",
+      "communityManager": "社区经理"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "questions": {
+      "whatIsVps": {
+        "question": "什么是游戏VPS？",
+        "answer": "游戏VPS（虚拟专用服务器）是专门为游戏优化的高性能服务器的专用部分。它提供保证的资源、低延迟和高可用性，非常适合托管游戏服务器、流媒体或运行游戏相关服务。"
+      },
+      "ddosProtection": {
+        "question": "DDoS防护如何工作？",
+        "answer": "我们的DDoS防护系统采用多层方法，结合硬件和软件解决方案。我们实时自动检测和缓解攻击，确保您的服务器在大规模攻击期间保持在线。所有套餐都包含基本保护，高级功能在更高级别的套餐中提供。"
+      },
+      "upgrade": {
+        "question": "我可以稍后升级套餐吗？",
+        "answer": "是的！您可以随时升级VPS套餐，无需停机时间。您的数据和设置将自动迁移到新的更强大的服务器。我们还提供按比例计费系统，因此您只需为使用的部分付费。"
+      }
+    }
+  },
+  "newsletter": {
+    "title": "保持更新",
+    "subtitle": "订阅我们的通讯，获取最新更新、独家优惠和游戏见解。",
+    "placeholder": "输入您的邮箱",
+    "subscribe": "订阅"
+  },
+  "footer": {
+    "company": "公司",
+    "about": "关于我们",
+    "careers": "招贤纳士",
+    "blog": "博客",
+    "support": "支持",
+    "helpCenter": "帮助中心",
+    "documentation": "文档",
+    "status": "服务状态",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "security": "安全",
+    "copyright": "© 2025 GameServe。保留所有权利。"
+  }
+}

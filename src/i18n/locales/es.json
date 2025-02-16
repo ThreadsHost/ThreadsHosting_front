@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "services": "Servicios",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Mejora tu Infraestructura de Gaming",
+    "subtitle": "Soluciones VPS premium diseñadas por gamers, para gamers. Experimenta el siguiente nivel en rendimiento de servidores.",
+    "startTrial": "Comenzar Prueba Gratuita",
+    "viewPlans": "Ver Planes"
+  },
+  "features": {
+    "title": "¿Por qué elegir GameServe?",
+    "subtitle": "Experimenta la perfecta combinación de rendimiento, fiabilidad y soporte con nuestras soluciones VPS optimizadas para gaming.",
+    "ultraLowLatency": {
+      "title": "Latencia Ultra Baja",
+      "description": "Experimenta tiempos de respuesta ultrarrápidos con nuestra infraestructura de red optimizada."
+    },
+    "ddosProtection": {
+      "title": "Protección DDoS",
+      "description": "Protección avanzada contra ataques DDoS, manteniendo tus servidores en línea 24/7."
+    },
+    "globalNetwork": {
+      "title": "Red Global",
+      "description": "Ubicaciones estratégicas de servidores en todo el mundo para un rendimiento óptimo."
+    },
+    "highPerformance": {
+      "title": "Alto Rendimiento",
+      "description": "Últimos procesadores AMD EPYC y SSD NVMe para máxima velocidad."
+    },
+    "uptime": {
+      "title": "99.99% de Disponibilidad",
+      "description": "Infraestructura de nivel empresarial que garantiza un servicio confiable."
+    },
+    "instantSetup": {
+      "title": "Configuración Instantánea",
+      "description": "Pon en marcha tu servidor en minutos con nuestra implementación automatizada."
+    },
+    "resourceControl": {
+      "title": "Control de Recursos",
+      "description": "Control total sobre los recursos de tu servidor con nuestro panel intuitivo."
+    },
+    "support": {
+      "title": "Soporte 24/7",
+      "description": "Equipo experto de soporte para servidores de juegos disponible las 24 horas."
+    },
+    "startTrial": "Comenzar Prueba Gratuita",
+    "learnMore": "Más Información"
+  },
+  "plans": {
+    "title": "Elige tu Estación de Batalla",
+    "monthly": "Mensual",
+    "annual": "Anual (Ahorra 20%)",
+    "mostPopular": "Más Popular",
+    "saveYear": "Ahorra {amount}/año",
+    "perMonth": "/mes",
+    "selectPlan": "Seleccionar Plan",
+    "starter": {
+      "name": "Inicial",
+      "features": [
+        "Soporte Básico 24/7",
+        "Protección DDoS",
+        "99.9% SLA de Disponibilidad",
+        "Copias de Seguridad Automatizadas"
+      ]
+    },
+    "proGamer": {
+      "name": "Pro Gamer",
+      "features": [
+        "Soporte Prioritario 24/7",
+        "Protección DDoS Avanzada",
+        "99.99% SLA de Disponibilidad",
+        "Copias de Seguridad Diarias",
+        "Panel de Control Personalizado",
+        "Plantillas de Servidores de Juegos"
+      ]
+    },
+    "elite": {
+      "name": "Elite",
+      "features": [
+        "Soporte VIP 24/7",
+        "Protección DDoS Empresarial",
+        "99.99% SLA de Disponibilidad",
+        "Copias de Seguridad por Hora",
+        "Panel de Control Personalizado",
+        "Plantillas de Servidores de Juegos",
+        "Balanceo de Carga",
+        "Implementación Multi-Región"
+      ]
+    }
+  },
+  "gameServers": {
+    "title": "Servidores de Juegos Populares",
+    "orderNow": "Ordenar Ahora"
+  },
+  "testimonials": {
+    "title": "Lo que Dicen los Gamers",
+    "roles": {
+      "proGamer": "Gamer Profesional",
+      "esportsManager": "Gerente de eSports",
+      "gameDev": "Desarrollador de Juegos",
+      "contentCreator": "Creador de Contenido",
+      "communityManager": "Gerente de Comunidad"
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": {
+      "whatIsVps": {
+        "question": "¿Qué es un VPS para Gaming?",
+        "answer": "Un VPS (Servidor Privado Virtual) para Gaming es una porción dedicada de un servidor de alto rendimiento optimizado específicamente para juegos. Proporciona recursos garantizados, baja latencia y alta disponibilidad, haciéndolo perfecto para alojar servidores de juegos, streaming o ejecutar servicios relacionados con juegos."
+      },
+      "ddosProtection": {
+        "question": "¿Cómo funciona su protección DDoS?",
+        "answer": "Nuestro sistema de protección DDoS utiliza un enfoque multicapa que combina soluciones de hardware y software. Detectamos y mitigamos automáticamente los ataques en tiempo real, asegurando que tus servidores permanezcan en línea incluso durante ataques a gran escala. Todos los planes incluyen protección básica, con características avanzadas disponibles en niveles superiores."
+      },
+      "upgrade": {
+        "question": "¿Puedo actualizar mi plan más tarde?",
+        "answer": "¡Sí! Puedes actualizar tu plan VPS en cualquier momento sin tiempo de inactividad. Tus datos y configuraciones se migrarán automáticamente a tu nuevo servidor más potente. También ofrecemos un sistema de facturación prorrateado, por lo que solo pagas por lo que usas."
+      }
+    }
+  },
+  "newsletter": {
+    "title": "Mantente Actualizado",
+    "subtitle": "Suscríbete a nuestro boletín para recibir las últimas actualizaciones, ofertas exclusivas y consejos de gaming.",
+    "placeholder": "Ingresa tu email",
+    "subscribe": "Suscribirse"
+  },
+  "footer": {
+    "company": "Empresa",
+    "about": "Acerca de",
+    "careers": "Carreras",
+    "blog": "Blog",
+    "support": "Soporte",
+    "helpCenter": "Centro de Ayuda",
+    "documentation": "Documentación",
+    "status": "Estado",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "security": "Seguridad",
+    "copyright": "© 2025 GameServe. Todos los derechos reservados."
+  }
+}

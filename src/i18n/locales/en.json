@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Level Up Your Gaming Infrastructure",
+    "subtitle": "Premium VPS solutions engineered for gamers, by gamers. Experience the next level of server performance.",
+    "startTrial": "Start Free Trial",
+    "viewPlans": "View Plans"
+  },
+  "features": {
+    "title": "Why Choose GameServe",
+    "subtitle": "Experience the perfect blend of performance, reliability, and support with our gaming-optimized VPS solutions.",
+    "ultraLowLatency": {
+      "title": "Ultra-Low Latency",
+      "description": "Experience lightning-fast response times with our optimized network infrastructure."
+    },
+    "ddosProtection": {
+      "title": "DDoS Protection",
+      "description": "Advanced protection against DDoS attacks, keeping your servers online 24/7."
+    },
+    "globalNetwork": {
+      "title": "Global Network",
+      "description": "Strategic server locations worldwide for optimal performance."
+    },
+    "highPerformance": {
+      "title": "High Performance",
+      "description": "Latest AMD EPYC processors and NVMe SSDs for maximum speed."
+    },
+    "uptime": {
+      "title": "99.99% Uptime",
+      "description": "Enterprise-grade infrastructure ensuring reliable service."
+    },
+    "instantSetup": {
+      "title": "Instant Setup",
+      "description": "Get your server up and running in minutes with our automated deployment."
+    },
+    "resourceControl": {
+      "title": "Resource Control",
+      "description": "Full control over your server resources with our intuitive dashboard."
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "Expert gaming server support team available around the clock."
+    },
+    "startTrial": "Start Free Trial",
+    "learnMore": "Learn More"
+  },
+  "plans": {
+    "title": "Choose Your Battle Station",
+    "monthly": "Monthly",
+    "annual": "Annual (Save 20%)",
+    "mostPopular": "Most Popular",
+    "perMonth": "/month",
+    "selectPlan": "Select Plan",
+    "starter": {
+      "name": "Starter",
+      "features": [
+        "Basic 24/7 Support",
+        "DDoS Protection",
+        "99.9% SLA Uptime",
+        "Automated Backups"
+      ]
+    },
+    "proGamer": {
+      "name": "Pro Gamer",
+      "features": [
+        "Priority 24/7 Support",
+        "Advanced DDoS Protection",
+        "99.99% SLA Uptime",
+        "Daily Backups",
+        "Custom Control Panel",
+        "Game Server Templates"
+      ]
+    },
+    "elite": {
+      "name": "Elite",
+      "features": [
+        "VIP 24/7 Support",
+        "Enterprise DDoS Protection",
+        "99.99% SLA Uptime",
+        "Hourly Backups",
+        "Custom Control Panel",
+        "Game Server Templates",
+        "Load Balancing",
+        "Multi-Region Deployment"
+      ]
+    }
+  },
+  "gameServers": {
+    "title": "Popular Game Servers",
+    "orderNow": "Order Now"
+  },
+  "testimonials": {
+    "title": "What Gamers Say",
+    "roles": {
+      "proGamer": "Professional Gamer",
+      "esportsManager": "eSports Manager",
+      "gameDev": "Game Developer",
+      "contentCreator": "Content Creator",
+      "communityManager": "Community Manager"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "whatIsVps": {
+        "question": "What is a Gaming VPS?",
+        "answer": "A Gaming VPS (Virtual Private Server) is a dedicated portion of a high-performance server optimized specifically for gaming. It provides guaranteed resources, low latency, and high availability, making it perfect for hosting game servers, streaming, or running game-related services."
+      },
+      "ddosProtection": {
+        "question": "How does your DDoS protection work?",
+        "answer": "Our DDoS protection system uses a multi-layered approach combining hardware and software solutions. We automatically detect and mitigate attacks in real-time, ensuring your servers stay online even during large-scale attacks. All plans include basic protection, with advanced features available in higher tiers."
+      },
+      "upgrade": {
+        "question": "Can I upgrade my plan later?",
+        "answer": "Yes! You can upgrade your VPS plan at any time with zero downtime. Your data and settings will automatically migrate to your new, more powerful server. We also offer a prorated billing system, so you only pay for what you use."
+      }
+    }
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "subtitle": "Subscribe to our newsletter for the latest updates, exclusive offers, and gaming insights.",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe"
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About",
+    "careers": "Careers",
+    "blog": "Blog",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "documentation": "Documentation",
+    "status": "Status",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "security": "Security",
+    "copyright": "© 2025 GameServe. All rights reserved."
+  }
+}
