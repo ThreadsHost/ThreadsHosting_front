@@ -24,14 +24,14 @@ function App() {
         <section className="hero-section">
           <Hero scrollY={scrollY} />
         </section>
-        <section id="features" className="features-section">
-          <Features />
-        </section>
         <section id="plans" className="plans-section">
           <Plans />
         </section>
         <section id="game-servers" className="game-servers-section">
           <GameServers />
+        </section>
+             <section id="features" className="features-section">
+          <Features />
         </section>
         <section id="testimonials" className="testimonials-section">
           <Testimonials />
