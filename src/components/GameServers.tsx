@@ -20,13 +20,13 @@ const GameServers = () => {
     },
     {
       name: "MTA",
-      image: "https://media.discordapp.net/attachments/1277474054718226463/1340542241365557258/mtasa.png?ex=67b2bcc0&is=67b16b40&hm=04c7bafb506f2d2cc163929053ba3ee86678939d963dd3a55cff9b0bcb2f3302&=&format=webp&quality=lossless&width=503&height=671",
+      image: "https://media.discordapp.net/attachments/1329622574627291260/1340796611109847141/gg.png?ex=67b3a9a6&is=67b25826&hm=1e3c001cb7e393820d71efcbee5d2c39edd3177bd2b1522c64c0b49e76b1fbdf&=&format=webp&quality=lossless&width=503&height=671",
       price: 19.99,
       icon: <Car className="w-8 h-8" />
     },
     {
       name: "SA:MP",
-      image: "https://i.ytimg.com/vi/OOMh5FfPC3c/maxresdefault.jpg",
+      image: "https://cdn.discordapp.com/attachments/1329622574627291260/1340796969907650650/0e68de59b4040da71ee088c3718a1a27.jpg?ex=67b3a9fc&is=67b2587c&hm=2cf70a868e1d8e005a2eb41418d50bad52b6f9555b56a1fd76173e10bac6dcfc&",
       price: 16.99,
       icon: <Users2 className="w-8 h-8" />
     }
