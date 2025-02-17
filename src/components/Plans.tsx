@@ -62,7 +62,7 @@ const Plans = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-0" />
 
       <div className="container mx-auto px-6 relative z-10">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 mt-20">
           <h2 className="text-4xl font-bold mb-6">{t('plans.title')}</h2>
           <div className="inline-flex items-center justify-center space-x-4 bg-[#111] p-2 rounded-full">
             <span 
@@ -146,7 +146,7 @@ const Plans = () => {
               <button className={`w-full py-3 rounded-lg font-semibold transition-all duration-300 ${
                 plan.popular
                   ? 'bg-[#ff3333] text-white hover:bg-[#cc0000]'
-                  : 'bg-black hover:bg-[#222]'
+                  : 'bg-black hover:bg-[#222] border-white border'
               } hover:shadow-lg hover:shadow-[#ff3333]/25 transform hover:scale-105`}>
                 {t('plans.selectPlan')}
               </button>

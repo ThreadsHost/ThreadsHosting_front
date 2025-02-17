@@ -25,6 +25,18 @@ const FAQ = () => {
     {
       question: t('faq.questions.upgrade.question'),
       answer: t('faq.questions.upgrade.answer')
+    },
+    {
+      question: t('faq.questions.ddos.question'),
+      answer: t('faq.questions.ddos.answer')
+    },
+    {
+      question: t('faq.questions.changePlan.question'),
+      answer: t('faq.questions.changePlan.answer')
+    },
+    {
+      question: t('faq.questions.support.question'),
+      answer: t('faq.questions.support.answer')
     }
   ];
 

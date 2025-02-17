@@ -1,4 +1,15 @@
 {
+  "navlinks": {
+    "home": "Inicio",
+    "services": {
+      "title": "Servicios",
+      "first": "Game Servers",
+      "second": "Bot Hosting"
+    },
+    "status": "Estado",
+    "news": "News",
+    "doc": "Documentacion"
+  },
   "nav": {
     "about": "Acerca de",
     "services": "Servicios",
@@ -8,12 +19,13 @@
   "hero": {
     "title": "Mejora tu Infraestructura de Gaming",
     "subtitle": "Soluciones VPS premium diseñadas por gamers, para gamers. Experimenta el siguiente nivel en rendimiento de servidores.",
-    "startTrial": "Comenzar Prueba Gratuita",
-    "viewPlans": "Ver Planes"
+    "startTrial": "Empezar",
+    "viewPlans": "Servicios",
+    "clientArea": "Area de clientes"
   },
   "features": {
-    "title": "¿Por qué elegir GameServe?",
-    "subtitle": "Experimenta la perfecta combinación de rendimiento, fiabilidad y soporte con nuestras soluciones VPS optimizadas para gaming.",
+    "title": "¿Por qué elegirnos?",
+    "subtitle": "Descubre la combinación ideal de rendimiento, soporte excepcional y la mejor relación calidad-precio con nuestros servicios de hosting.",
     "ultraLowLatency": {
       "title": "Latencia Ultra Baja",
       "description": "Experimenta tiempos de respuesta ultrarrápidos con nuestra infraestructura de red optimizada."
@@ -46,19 +58,18 @@
       "title": "Soporte 24/7",
       "description": "Equipo experto de soporte para servidores de juegos disponible las 24 horas."
     },
-    "startTrial": "Comenzar Prueba Gratuita",
+    "startTrial": "Empezar",
     "learnMore": "Más Información"
   },
   "plans": {
-    "title": "Elige tu Estación de Batalla",
+    "title": "Nuestros Servicios",
     "monthly": "Mensual",
     "annual": "Anual (Ahorra 20%)",
     "mostPopular": "Más Popular",
-    "saveYear": "Ahorra {amount}/año",
     "perMonth": "/mes",
     "selectPlan": "Seleccionar Plan",
     "starter": {
-      "name": "Inicial",
+      "name": "Bot Hosting",
       "features": [
         "Soporte Básico 24/7",
         "Protección DDoS",
@@ -67,7 +78,7 @@
       ]
     },
     "proGamer": {
-      "name": "Pro Gamer",
+      "name": "Game Server",
       "features": [
         "Soporte Prioritario 24/7",
         "Protección DDoS Avanzada",
@@ -92,11 +103,11 @@
     }
   },
   "gameServers": {
-    "title": "Servidores de Juegos Populares",
+    "title": "Servidores Populares",
     "orderNow": "Ordenar Ahora"
   },
   "testimonials": {
-    "title": "Lo que Dicen los Gamers",
+    "title": "Reviews de clientes",
     "roles": {
       "proGamer": "Gamer Profesional",
       "esportsManager": "Gerente de eSports",
@@ -109,16 +120,28 @@
     "title": "Preguntas Frecuentes",
     "questions": {
       "whatIsVps": {
-        "question": "¿Qué es un VPS para Gaming?",
-        "answer": "Un VPS (Servidor Privado Virtual) para Gaming es una porción dedicada de un servidor de alto rendimiento optimizado específicamente para juegos. Proporciona recursos garantizados, baja latencia y alta disponibilidad, haciéndolo perfecto para alojar servidores de juegos, streaming o ejecutar servicios relacionados con juegos."
+        "question": "¿Qué juegos puedo alojar en Threads Host?",
+        "answer": "Ofrecemos hosting para una variedad de juegos populares como Minecraft (Java y Bedrock), Rust, FiveM, SAMP, MTA y más. Si necesitas un servidor para otro juego, contáctanos y te ayudaremos a configurarlo."
       },
       "ddosProtection": {
-        "question": "¿Cómo funciona su protección DDoS?",
-        "answer": "Nuestro sistema de protección DDoS utiliza un enfoque multicapa que combina soluciones de hardware y software. Detectamos y mitigamos automáticamente los ataques en tiempo real, asegurando que tus servidores permanezcan en línea incluso durante ataques a gran escala. Todos los planes incluyen protección básica, con características avanzadas disponibles en niveles superiores."
+        "question": "¿Qué características tienen sus servidores de bots?",
+        "answer": "Nuestro Bot Hosting es compatible con Node.js, Python y Java. Ofrecemos conexión 24/7, soporte para bases de datos y acceso completo a la consola para que gestiones tu bot sin limitaciones."
       },
       "upgrade": {
-        "question": "¿Puedo actualizar mi plan más tarde?",
-        "answer": "¡Sí! Puedes actualizar tu plan VPS en cualquier momento sin tiempo de inactividad. Tus datos y configuraciones se migrarán automáticamente a tu nuevo servidor más potente. También ofrecemos un sistema de facturación prorrateado, por lo que solo pagas por lo que usas."
+        "question": "¿Cómo accedo y administro mi servidor?",
+        "answer": "Utilizamos el Panel Pterodactyl, una plataforma intuitiva y fácil de usar donde puedes iniciar, detener, reiniciar y administrar tu servidor desde cualquier lugar."
+      },
+      "ddos": {
+        "question": "¿Tienen protección contra ataques DDoS?",
+        "answer": "Sí, todos nuestros planes incluyen protección avanzada contra DDoS para garantizar la estabilidad y seguridad de tu servidor en todo momento."
+      },
+      "changePlan": {
+        "question": "¿Puedo cambiar de plan si necesito más recursos?",
+        "answer": "¡Por supuesto! Si necesitas más RAM, CPU o almacenamiento, puedes escalar tu plan en cualquier momento sin perder tu progreso o configuraciones."
+      },
+      "support": {
+        "question": "¿Ofrecen soporte técnico en caso de problemas?",
+        "answer": "Sí, nuestro equipo de soporte está disponible para ayudarte con configuración, problemas técnicos y optimización. Puedes contactarnos a través de ticket de soporte, Discord o correo electrónico."
       }
     }
   },

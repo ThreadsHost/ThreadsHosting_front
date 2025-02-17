@@ -20,19 +20,9 @@ const Features = () => {
       description: t('features.ddosProtection.description')
     },
     {
-      icon: <Globe2 className="w-8 h-8 text-[#ff3333]" />,
-      title: t('features.globalNetwork.title'),
-      description: t('features.globalNetwork.description')
-    },
-    {
       icon: <Cpu className="w-8 h-8 text-[#3366ff]" />,
       title: t('features.highPerformance.title'),
       description: t('features.highPerformance.description')
-    },
-    {
-      icon: <Clock className="w-8 h-8 text-[#ff3333]" />,
-      title: t('features.uptime.title'),
-      description: t('features.uptime.description')
     },
     {
       icon: <Server className="w-8 h-8 text-[#3366ff]" />,
@@ -90,16 +80,7 @@ const Features = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <div className="inline-flex flex-col sm:flex-row gap-4">
-            <button className="px-8 py-4 bg-[#ff3333] hover:bg-[#cc0000] rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-              {t('features.startTrial')}
-            </button>
-            <button className="px-8 py-4 border border-[#3366ff] hover:bg-[#3366ff]/10 rounded-lg font-semibold transition-all duration-300">
-              {t('features.learnMore')}
-            </button>
-          </div>
-        </div>
+    
       </div>
     </section>
   );

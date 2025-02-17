@@ -18,10 +18,10 @@ const Hero = ({ scrollY }: HeroProps) => {
           backgroundPosition: 'center',
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/60 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/90 z-0" />
       <div className="container mx-auto relative z-10">
         <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#ff3333] to-[#3366ff] gradient-animate">
+          <h1 className="text-5xl pb-2 md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#ff3333] to-[#3366ff] gradient-animate">
             {t('hero.title')}
           </h1>
           <p className="text-xl text-gray-300 mb-8">
