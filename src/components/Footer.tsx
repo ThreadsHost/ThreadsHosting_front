@@ -11,11 +11,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Server className="w-6 h-6 text-[#ff3333]" />
-              <span className="text-lg font-bold">GameServe</span>
+              <img className="w-6 h-6 text-[#ff3333]" src="https://cdn.discordapp.com/attachments/1329622574627291260/1341174986437820457/Icono-oficial-logo-Threads-c-D.png?ex=67b50a0a&is=67b3b88a&hm=8e93db14738f6ccf83b9d522b77fcbf73cf8e30b3ee53871f19b8c120e72822e&" />
+              <span className="text-lg font-bold">ThreadsHost</span>
             </div>
             <p className="text-gray-400">
-              Premium gaming VPS solutions for the most demanding players.
+Premium game server solutions for the most demanding players.
             </p>
           </div>
           <div>
