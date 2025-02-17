@@ -49,7 +49,7 @@ const Testimonials = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("https://cdn.discordapp.com/attachments/1329622574627291260/1340533007580139540/joshua-hoehne-p4NcAwtZj8c-unsplash.jpg?ex=67b2b426&is=67b162a6&hm=b06415b2af36344a395edf4b4be5ca872b3a8231fe5e2c91802537f1445280f8&")',
+          backgroundImage: 'url("https://media.discordapp.net/attachments/1329622574627291260/1341179769932349481/mark-chan-2rhsI6_B8cA-unsplash.jpg?ex=67b50e7f&is=67b3bcff&hm=20433bc0f9d56607013c0abf7fb0928828380827863b9f14501fce7f2cb5d746&=&format=webp&width=1007&height=671")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: '0.1'
