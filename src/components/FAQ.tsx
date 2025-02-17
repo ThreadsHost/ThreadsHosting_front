@@ -119,29 +119,7 @@ const FAQ = () => {
             </div>
           </div>
 
-          {/* Newsletter Section */}
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6">{t('newsletter.title')}</h2>
-            <p className="text-gray-400 mb-8">
-              {t('newsletter.subtitle')}
-            </p>
-            <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-4">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder={t('newsletter.placeholder')}
-                className="flex-1 px-6 py-3 rounded-lg bg-black/50 backdrop-blur-sm border border-[#1a1a1a] focus:outline-none focus:border-[#3366ff]"
-                required
-              />
-              <button
-                type="submit"
-                className="px-8 py-3 bg-[#ff3333] hover:bg-[#cc0000] rounded-lg font-semibold transition-all duration-300"
-              >
-                {t('newsletter.subscribe')}
-              </button>
-            </form>
-          </div>
+         
         </div>
       </div>
     </section>
