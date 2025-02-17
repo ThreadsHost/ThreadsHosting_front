@@ -54,7 +54,7 @@ const Features = () => {
         }}
       />
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black/70 z-0"  />
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-0"  />
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
