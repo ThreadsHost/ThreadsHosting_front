@@ -101,7 +101,7 @@ const Plans = () => {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-[#ff3333] text-white px-4 py-1 rounded-full text-sm font-semibold animate-pulse-slow">
+                  <span className="bg-[#ff3333] text-white px-4 py-1 rounded-full text-sm font-semibold">
                     {t('plans.mostPopular')}
                   </span>
                 </div>
