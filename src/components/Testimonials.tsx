@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Quote } from 'lucide-react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -48,10 +49,9 @@ const Testimonials = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("https://cdn.discordapp.com/attachments/1329622574627291260/1340533006577827880/mark-chan-2rhsI6_B8cA-unsplash.jpg?ex=67b2b426&is=67b162a6&hm=144c6b179aaeffe7b1978ea1c663bdc3bffd7cc35af2a8a71d5b4570c2b2dc2a&")',
+          backgroundImage: 'url("https://cdn.discordapp.com/attachments/1329622574627291260/1340533007580139540/joshua-hoehne-p4NcAwtZj8c-unsplash.jpg?ex=67b2b426&is=67b162a6&hm=b06415b2af36344a395edf4b4be5ca872b3a8231fe5e2c91802537f1445280f8&")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
           opacity: '0.1'
         }}
       />
@@ -59,7 +59,11 @@ const Testimonials = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-0" />
 
       <div className="container mx-auto px-6 relative z-10">
-        <h2 className="text-4xl font-bold text-center mb-12">{t('testimonials.title')}</h2>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold mb-4">{t('testimonials.title')}</h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#ff3333] to-[#3366ff] mx-auto"></div>
+        </div>
+        
         <div className="relative">
           <Swiper
             modules={[Autoplay, Pagination, Navigation]}
@@ -69,27 +73,61 @@ const Testimonials = () => {
               640: { slidesPerView: 2 },
               1024: { slidesPerView: 3 }
             }}
-            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
             pagination={{ clickable: true }}
-            navigation={true}
             loop={true}
-            className="testimonials-swiper pb-12"
+            className="testimonials-swiper pb-16 "
           >
             {testimonials.map((testimonial, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-black/50 backdrop-blur-sm p-8 rounded-lg h-full flex flex-col">
+                <div className="bg-gradient-to-br from-black/80 to-black/40 backdrop-blur-sm p-8 rounded-2xl h-full flex flex-col transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#ff3333]/10 border border-white/5">
+                  {/* Quote Icon */}
+                  <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#ff3333] rounded-full flex items-center justify-center transform rotate-12">
+                    <Quote className="w-6 h-6 text-white" />
+                  </div>
+                  
+                  {/* Profile Section */}
                   <div className="flex items-center mb-6">
-                    <img 
-                      src={testimonial.image}
-                      alt={testimonial.name}
-                      className="w-16 h-16 rounded-full object-cover"
-                    />
+                    <div className="relative">
+                      <div className="w-16 h-16 rounded-full overflow-hidden ring-2 ring-[#3366ff] ring-offset-2 ring-offset-black">
+                        <img 
+                          src={testimonial.image}
+                          alt={testimonial.name}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-[#3366ff] rounded-full flex items-center justify-center">
+                        <div className="w-3 h-3 bg-white rounded-full animate-pulse"></div>
+                      </div>
+                    </div>
                     <div className="ml-4">
-                      <div className="font-bold text-lg">{testimonial.name}</div>
-                      <div className="text-sm text-gray-400">{testimonial.role}</div>
+                      <div className="font-bold text-lg bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                        {testimonial.name}
+                      </div>
+                      <div className="text-sm text-[#3366ff]">{testimonial.role}</div>
                     </div>
                   </div>
-                  <p className="text-gray-300 flex-grow">{testimonial.quote}</p>
+                  
+                  {/* Quote Text */}
+                  <div className="flex-grow">
+                    <p className="text-gray-300 leading-relaxed italic">
+                      "{testimonial.quote}"
+                    </p>
+                  </div>
+                  
+                  {/* Rating Stars */}
+                  <div className="mt-6 flex justify-center space-x-1">
+                    {[...Array(5)].map((_, i) => (
+                      <svg 
+                        key={i}
+                        className="w-5 h-5 text-[#ff3333]"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    ))}
+                  </div>
                 </div>
               </SwiperSlide>
             ))}
