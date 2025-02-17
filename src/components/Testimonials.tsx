@@ -61,7 +61,6 @@ const Testimonials = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">{t('testimonials.title')}</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-[#ff3333] to-[#3366ff] mx-auto"></div>
         </div>
         
         <div className="relative">
