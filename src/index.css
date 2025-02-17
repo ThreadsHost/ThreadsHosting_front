@@ -165,7 +165,7 @@ section::after {
 .features-section {
   background: radial-gradient(circle at right top,
     rgba(51, 102, 255, 0.15) 0%,
-    rgba(0, 0, 0, 0) 70%
+    rgba(0, 0, 0, 0.959) 70%
   );
 }
 

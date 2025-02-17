@@ -42,7 +42,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="relative py-20 overflow-hidden">
+    <section className="relative py-20 overflow-hidden  ">
       {/* Background Image with Gradient Overlay */}
       <div 
         className="absolute inset-0 z-0"
@@ -54,7 +54,7 @@ const Features = () => {
         }}
       />
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-0" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black/70 z-0"  />
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
@@ -64,7 +64,7 @@ const Features = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div 
               key={index}
@@ -80,7 +80,6 @@ const Features = () => {
           ))}
         </div>
 
-    
       </div>
     </section>
   );
