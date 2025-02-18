@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#111] py-12 border-t border-[#1a1a1a]">
       <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-5 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <img className="w-12 h-12 text-[#ff3333]" src="https://cdn.discordapp.com/attachments/1329622574627291260/1341174986437820457/Icono-oficial-logo-Threads-c-D.png?ex=67b50a0a&is=67b3b88a&hm=8e93db14738f6ccf83b9d522b77fcbf73cf8e30b3ee53871f19b8c120e72822e&" />
