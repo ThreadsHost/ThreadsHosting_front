@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src="https://media.discordapp.net/attachments/1329622574627291260/1341174986437820457/Icono-oficial-logo-Threads-c-D.png?ex=67b50a0a&is=67b3b88a&hm=8e93db14738f6ccf83b9d522b77fcbf73cf8e30b3ee53871f19b8c120e72822e&=&format=webp&quality=lossless&width=671&height=671" className="w-6 h-6 text-[#ff3333] animate-float" />
+            <img src="https://media.discordapp.net/attachments/1329622574627291260/1341174986437820457/Icono-oficial-logo-Threads-c-D.png?ex=67b50a0a&is=67b3b88a&hm=8e93db14738f6ccf83b9d522b77fcbf73cf8e30b3ee53871f19b8c120e72822e&=&format=webp&quality=lossless&width=671&height=671" className="w-12 h-12 text-[#ff3333] animate-float" />
             <span className="text-lg font-orbitron font-bold">ThreadsHost</span>
           </div>
 
