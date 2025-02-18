@@ -23,6 +23,11 @@ Premium game server solutions for the most demanding players.
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.about')}</a></li>
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">News</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.partner')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.trust')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.terms')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.privacy')}</a></li>
+              
             </ul>
           </div>
           <div>
@@ -33,13 +38,13 @@ Premium game server solutions for the most demanding players.
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.status')}</a></li>
             </ul>
           </div>
-          <div>
+{/*           <div>
             <h4 className="font-bold mb-4">{t('footer.legal')}</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.privacy')}</a></li>
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.terms')}</a></li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="mt-12 pt-8 border-t border-[#1a1a1a] text-center text-gray-400">
           <p>{t('footer.copyright')}</p>
