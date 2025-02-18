@@ -1,6 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Server } from 'lucide-react';
+import Twitter from './Twitter'
+import Facebook from './Facebook'
+import Instagram from './Instagram'
+import Discord from './Discord'
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -17,6 +21,12 @@ const Footer = () => {
             <p className="text-gray-400">
 Premium game server solutions for the most demanding players.
             </p>
+            <div className="flex flex-row gap-x-2">
+              <Twitter/>
+              <Facebook/>
+              <Instagram/>
+              <Discord/>
+            </div>
           </div>
           <div>
             <h4 className="font-bold mb-4">{t('footer.company')}</h4>
@@ -41,12 +51,8 @@ Premium game server solutions for the most demanding players.
           <div>
             <h4 className="font-bold mb-4">{t('footer.service')}</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.mc')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.dsc')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.gameh')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.vps')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.dedicated')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.domains')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">Game Hosting</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">Bot Hosting</a></li>
             </ul>
           </div>
           <div>
