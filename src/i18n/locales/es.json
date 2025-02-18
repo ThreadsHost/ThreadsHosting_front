@@ -159,11 +159,14 @@
     "support": "Soporte",
     "helpCenter": "Centro de Ayuda",
     "documentation": "Documentación",
-    "status": "Estado",
+    "status": "Estado de los Servicios",
     "legal": "Legal",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
     "security": "Seguridad",
-    "copyright": "© 2025 ThreadsHost. Todos los derechos reservados."
+    "copyright": "© 2025 ThreadsHost. Todos los derechos reservados.",
+    "community": "Comunidad de Discord",
+    "contact": "Contacta con Nosotros",
+    "report": "Denunciar abuso",
   }
 }
