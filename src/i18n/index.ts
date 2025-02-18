@@ -3,8 +3,6 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import en from './locales/en.json';
 import es from './locales/es.json';
-import zh from './locales/zh.json';
-import ru from './locales/ru.json';
 
 i18n
   .use(LanguageDetector)
@@ -13,8 +11,6 @@ i18n
     resources: {
       en: { translation: en },
       es: { translation: es },
-      zh: { translation: zh },
-      ru: { translation: ru }
     },
     lng: 'es', // Set Spanish as default
     fallbackLng: 'es',
