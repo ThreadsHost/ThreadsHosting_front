@@ -167,6 +167,18 @@
     "copyright": "© 2025 ThreadsHost. Todos los derechos reservados.",
     "community": "Comunidad de Discord",
     "contact": "Contacta con Nosotros",
-    "report": "Documentación"
+    "report": "Documentación",
+    "service": "Servicios",
+    "mc": "Minecraft Hosting",
+    "dsc": "Discord Bot Hosting",
+    "gameh": "Game Hosting",
+    "vps": "VPS Hosting",
+    "dedicated": "Hosting Dedicado",
+    "domains": "Registro de dominio (Proximamente)",
+    "account": "Cuenta",
+    "my": "Mis Productos",
+    "renew": "Renovaciones y Facturación",
+    "login": "Iniciar sesión",
+    "register": "Registrarse"
   }
 }
