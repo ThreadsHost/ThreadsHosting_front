@@ -153,7 +153,7 @@
   },
   "footer": {
     "company": "Empresa",
-    "about": "Acerca de",
+    "about": "Sobre Nosotros",
     "partner": "Afiliados",
     "trust": "Centro de confianza",
     "support": "Soporte",
@@ -161,8 +161,8 @@
     "documentation": "Documentación",
     "status": "Estado",
     "legal": "Legal",
-    "privacy": "Privacidad",
-    "terms": "Términos",
+    "privacy": "Política Privacidad",
+    "terms": "Términos de Servicio",
     "security": "Seguridad",
     "copyright": "© 2025 ThreadsHost. Todos los derechos reservados."
   }
