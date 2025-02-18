@@ -21,7 +21,7 @@ const Footer = () => {
             <p className="text-gray-400">
 Premium game server solutions for the most demanding players.
             </p>
-            <div className="flex flex-row gap-x-2 p-4">
+            <div className="flex flex-row gap-x-2 p-4 justify-center items-center">
               <Twitter className="text-3xl"/>
               <Facebook className="text-3xl"/>
               <Instagram className="text-3xl"/>
