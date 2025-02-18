@@ -22,7 +22,6 @@ Premium game server solutions for the most demanding players.
             <h4 className="font-bold mb-4">{t('footer.company')}</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.about')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">News</a></li>
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.partner')}</a></li>
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.trust')}</a></li>
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.terms')}</a></li>
