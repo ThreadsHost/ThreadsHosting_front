@@ -21,11 +21,11 @@ const Footer = () => {
             <p className="text-gray-400">
 Premium game server solutions for the most demanding players.
             </p>
-            <div className="flex flex-row gap-x-2">
-              <Twitter/>
-              <Facebook/>
-              <Instagram/>
-              <Discord/>
+            <div className="flex flex-row gap-x-2 p-4">
+              <Twitter className="text-3xl"/>
+              <Facebook className="text-3xl"/>
+              <Instagram className="text-3xl"/>
+              <Discord className="text-3xl"/>
             </div>
           </div>
           <div>
