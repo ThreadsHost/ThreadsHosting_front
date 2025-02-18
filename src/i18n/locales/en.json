@@ -17,27 +17,26 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Upgrade Your Gaming Infrastructure",
-    "subtitle": "Premium VPS solutions designed by gamers, for gamers. Experience the next level of server performance.",
+    "title": "Enhance Your Gaming Infrastructure",
+    "subtitle": "Premium VPS solutions designed by gamers, for gamers. Experience the next level in server performance.",
     "startTrial": "Start Trial",
     "viewPlans": "View Plans",
     "clientArea": "Client Area"
-
   },
   "features": {
     "title": "Why Choose Us?",
-    "subtitle": "Discover the perfect combination of performance, exceptional support, and the best value with our hosting services.",
+    "subtitle": "Discover the perfect blend of performance, exceptional support, and the best value for your hosting needs.",
     "ultraLowLatency": {
-      "title": "Ultra Low Latency",
-      "description": "Experience lightning-fast response times with our optimized network infrastructure."
+      "title": "Ultra-Low Latency",
+      "description": "Experience ultra-fast response times with our optimized network infrastructure."
     },
     "ddosProtection": {
       "title": "DDoS Protection",
-      "description": "Advanced protection against DDoS attacks, keeping your servers online 24/7."
+      "description": "Advanced DDoS protection keeps your servers online 24/7."
     },
     "globalNetwork": {
       "title": "Global Network",
-      "description": "Strategic server locations worldwide for optimal performance."
+      "description": "Strategically located servers worldwide for optimal performance."
     },
     "highPerformance": {
       "title": "High Performance",
@@ -45,19 +44,19 @@
     },
     "uptime": {
       "title": "99.99% Uptime",
-      "description": "Enterprise-grade infrastructure that ensures reliable service."
+      "description": "Enterprise-level infrastructure ensures reliable service."
     },
     "instantSetup": {
       "title": "Instant Setup",
-      "description": "Launch your server in minutes with our automated deployment."
+      "description": "Get your server up and running in minutes with our automated deployment."
     },
     "resourceControl": {
       "title": "Resource Control",
-      "description": "Full control over your server's resources with our intuitive control panel."
+      "description": "Full control over your server resources with our intuitive panel."
     },
     "support": {
       "title": "24/7 Support",
-      "description": "Expert support team for game servers available 24/7."
+      "description": "Expert support team available 24/7 for game servers."
     },
     "startTrial": "Start Trial",
     "learnMore": "Learn More"
@@ -67,7 +66,6 @@
     "monthly": "Monthly",
     "annual": "Annual (Save 20%)",
     "mostPopular": "Most Popular",
-    "saveYear": "Save {amount}/year",
     "perMonth": "/month",
     "selectPlan": "Select Plan",
     "starter": {
@@ -94,7 +92,7 @@
       "name": "Elite",
       "features": [
         "VIP 24/7 Support",
-        "Enterprise DDoS Protection",
+        "Enterprise-Level DDoS Protection",
         "99.99% SLA Uptime",
         "Hourly Backups",
         "Custom Control Panel",
@@ -109,7 +107,7 @@
     "orderNow": "Order Now"
   },
   "testimonials": {
-    "title": "Customer Reviews",
+    "title": "Client Reviews",
     "roles": {
       "proGamer": "Professional Gamer",
       "esportsManager": "eSports Manager",
@@ -123,41 +121,41 @@
     "questions": {
       "whatIsVps": {
         "question": "What games can I host on Threads Host?",
-        "answer": "We offer hosting for a variety of popular games like Minecraft (Java and Bedrock), Rust, FiveM, SAMP, MTA, and more. If you need a server for another game, contact us and we’ll help you set it up."
+        "answer": "We offer hosting for a variety of popular games like Minecraft (Java & Bedrock), Rust, FiveM, SAMP, MTA, and more. If you need a server for another game, contact us and we’ll help you set it up."
       },
       "ddosProtection": {
-        "question": "What features do your bot servers have?",
-        "answer": "Our Bot Hosting supports Node.js, Python, and Java. We offer 24/7 connectivity, database support, and full console access so you can manage your bot without limitations."
+        "question": "What features do your bot hosting servers have?",
+        "answer": "Our Bot Hosting supports Node.js, Python, and Java. We provide 24/7 uptime, database support, and full console access to manage your bot without limitations."
       },
       "upgrade": {
         "question": "How do I access and manage my server?",
-        "answer": "We use Pterodactyl Panel, an intuitive and easy-to-use platform where you can start, stop, restart, and manage your server from anywhere."
+        "answer": "We use the Pterodactyl Panel, an intuitive and easy-to-use platform where you can start, stop, restart, and manage your server from anywhere."
       },
       "ddos": {
-        "question": "Do you have DDoS protection?",
-        "answer": "Yes, all of our plans include advanced DDoS protection to ensure the stability and security of your server at all times."
+        "question": "Do you offer DDoS protection?",
+        "answer": "Yes, all our plans include advanced DDoS protection to ensure your server’s stability and security at all times."
       },
       "changePlan": {
-        "question": "Can I change my plan if I need more resources?",
-        "answer": "Of course! If you need more RAM, CPU, or storage, you can scale your plan at any time without losing progress or configurations."
+        "question": "Can I upgrade my plan if I need more resources?",
+        "answer": "Absolutely! If you need more RAM, CPU, or storage, you can upgrade your plan at any time without losing progress or settings."
       },
       "support": {
-        "question": "Do you offer technical support in case of issues?",
-        "answer": "Yes, our support team is available to assist with setup, technical issues, and optimization. You can contact us via support ticket, Discord, or email."
+        "question": "Do you provide technical support in case of issues?",
+        "answer": "Yes, our support team is available to help with setup, technical issues, and optimization. You can contact us via support ticket, Discord, or email."
       }
     }
   },
   "newsletter": {
     "title": "Stay Updated",
-    "subtitle": "Subscribe to our newsletter to receive the latest updates, exclusive offers, and gaming tips.",
+    "subtitle": "Subscribe to our newsletter for the latest updates, exclusive offers, and gaming tips.",
     "placeholder": "Enter your email",
     "subscribe": "Subscribe"
   },
   "footer": {
     "company": "Company",
     "about": "About",
-    "careers": "Careers",
-    "blog": "Blog",
+    "partner": "Affiliates",
+    "trust": "Trust Center",
     "support": "Support",
     "helpCenter": "Help Center",
     "documentation": "Documentation",
