@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <img className="w-6 h-6 text-[#ff3333]" src="https://cdn.discordapp.com/attachments/1329622574627291260/1341174986437820457/Icono-oficial-logo-Threads-c-D.png?ex=67b50a0a&is=67b3b88a&hm=8e93db14738f6ccf83b9d522b77fcbf73cf8e30b3ee53871f19b8c120e72822e&" />
+              <img className="w-12 h-12 text-[#ff3333]" src="https://cdn.discordapp.com/attachments/1329622574627291260/1341174986437820457/Icono-oficial-logo-Threads-c-D.png?ex=67b50a0a&is=67b3b88a&hm=8e93db14738f6ccf83b9d522b77fcbf73cf8e30b3ee53871f19b8c120e72822e&" />
               <span className="text-lg font-bold">ThreadsHost</span>
             </div>
             <p className="text-gray-400">
@@ -38,13 +38,26 @@ Premium game server solutions for the most demanding players.
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.status')}</a></li>
             </ul>
           </div>
-{/*           <div>
-            <h4 className="font-bold mb-4">{t('footer.legal')}</h4>
+          <div>
+            <h4 className="font-bold mb-4">{t('footer.service')}</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.privacy')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.terms')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.mc')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.dsc')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.gameh')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.vps')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.dedicated')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.domains')}</a></li>
             </ul>
-          </div> */}
+          </div>
+          <div>
+            <h4 className="font-bold mb-4">{t('footer.account')}</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.my')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.renew')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.login')}</a></li>
+              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.register')}</a></li>
+            </ul>
+          </div>
         </div>
         <div className="mt-12 pt-8 border-t border-[#1a1a1a] text-center text-gray-400">
           <p>{t('footer.copyright')}</p>
