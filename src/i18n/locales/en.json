@@ -17,22 +17,22 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Enhance Your Gaming Infrastructure",
-    "subtitle": "Premium VPS solutions designed by gamers, for gamers. Experience the next level in server performance.",
-    "startTrial": "Start Trial",
-    "viewPlans": "View Plans",
+    "title": "Upgrade Your Gaming Infrastructure",
+    "subtitle": "Premium VPS solutions designed by gamers, for gamers. Experience the next level of server performance.",
+    "startTrial": "Start",
+    "viewPlans": "Services",
     "clientArea": "Client Area"
   },
   "features": {
     "title": "Why Choose Us?",
-    "subtitle": "Discover the perfect blend of performance, exceptional support, and the best value for your hosting needs.",
+    "subtitle": "Discover the perfect combination of performance, exceptional support, and the best value with our hosting services.",
     "ultraLowLatency": {
       "title": "Ultra-Low Latency",
       "description": "Experience ultra-fast response times with our optimized network infrastructure."
     },
     "ddosProtection": {
       "title": "DDoS Protection",
-      "description": "Advanced DDoS protection keeps your servers online 24/7."
+      "description": "Advanced DDoS protection, keeping your servers online 24/7."
     },
     "globalNetwork": {
       "title": "Global Network",
@@ -44,7 +44,7 @@
     },
     "uptime": {
       "title": "99.99% Uptime",
-      "description": "Enterprise-level infrastructure ensures reliable service."
+      "description": "Enterprise-level infrastructure ensuring a reliable service."
     },
     "instantSetup": {
       "title": "Instant Setup",
@@ -56,9 +56,9 @@
     },
     "support": {
       "title": "24/7 Support",
-      "description": "Expert support team available 24/7 for game servers."
+      "description": "Expert game server support team available 24/7."
     },
-    "startTrial": "Start Trial",
+    "startTrial": "Start",
     "learnMore": "Learn More"
   },
   "plans": {
@@ -73,7 +73,7 @@
       "features": [
         "Basic 24/7 Support",
         "DDoS Protection",
-        "99.9% SLA Uptime",
+        "99.9% Uptime SLA",
         "Automated Backups"
       ]
     },
@@ -82,7 +82,7 @@
       "features": [
         "Priority 24/7 Support",
         "Advanced DDoS Protection",
-        "99.99% SLA Uptime",
+        "99.99% Uptime SLA",
         "Daily Backups",
         "Custom Control Panel",
         "Game Server Templates"
@@ -92,8 +92,8 @@
       "name": "Elite",
       "features": [
         "VIP 24/7 Support",
-        "Enterprise-Level DDoS Protection",
-        "99.99% SLA Uptime",
+        "Enterprise DDoS Protection",
+        "99.99% Uptime SLA",
         "Hourly Backups",
         "Custom Control Panel",
         "Game Server Templates",
@@ -107,9 +107,9 @@
     "orderNow": "Order Now"
   },
   "testimonials": {
-    "title": "Client Reviews",
+    "title": "Customer Reviews",
     "roles": {
-      "proGamer": "Professional Gamer",
+      "proGamer": "Pro Gamer",
       "esportsManager": "eSports Manager",
       "gameDev": "Game Developer",
       "contentCreator": "Content Creator",
@@ -121,11 +121,11 @@
     "questions": {
       "whatIsVps": {
         "question": "What games can I host on Threads Host?",
-        "answer": "We offer hosting for a variety of popular games like Minecraft (Java & Bedrock), Rust, FiveM, SAMP, MTA, and more. If you need a server for another game, contact us and we’ll help you set it up."
+        "answer": "We offer hosting for a variety of popular games like Minecraft (Java & Bedrock), Rust, FiveM, SAMP, MTA, and more. If you need a server for another game, contact us and we'll help you set it up."
       },
       "ddosProtection": {
         "question": "What features do your bot hosting servers have?",
-        "answer": "Our Bot Hosting supports Node.js, Python, and Java. We provide 24/7 uptime, database support, and full console access to manage your bot without limitations."
+        "answer": "Our Bot Hosting supports Node.js, Python, and Java. We offer 24/7 connectivity, database support, and full console access to manage your bot without limitations."
       },
       "upgrade": {
         "question": "How do I access and manage my server?",
@@ -133,37 +133,40 @@
       },
       "ddos": {
         "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all our plans include advanced DDoS protection to ensure your server’s stability and security at all times."
+        "answer": "Yes, all our plans include advanced DDoS protection to ensure the stability and security of your server at all times."
       },
       "changePlan": {
         "question": "Can I upgrade my plan if I need more resources?",
-        "answer": "Absolutely! If you need more RAM, CPU, or storage, you can upgrade your plan at any time without losing progress or settings."
+        "answer": "Absolutely! If you need more RAM, CPU, or storage, you can scale your plan anytime without losing your progress or settings."
       },
       "support": {
-        "question": "Do you provide technical support in case of issues?",
-        "answer": "Yes, our support team is available to help with setup, technical issues, and optimization. You can contact us via support ticket, Discord, or email."
+        "question": "Do you offer technical support in case of issues?",
+        "answer": "Yes, our support team is available to help you with setup, technical issues, and optimization. You can reach us via support tickets, Discord, or email."
       }
     }
   },
   "newsletter": {
     "title": "Stay Updated",
-    "subtitle": "Subscribe to our newsletter for the latest updates, exclusive offers, and gaming tips.",
+    "subtitle": "Subscribe to our newsletter to receive the latest updates, exclusive offers, and gaming tips.",
     "placeholder": "Enter your email",
     "subscribe": "Subscribe"
   },
   "footer": {
     "company": "Company",
-    "about": "About",
+    "about": "About Us",
     "partner": "Affiliates",
     "trust": "Trustpilot",
     "support": "Support",
     "helpCenter": "Help Center",
     "documentation": "Documentation",
-    "status": "Status",
+    "status": "Service Status",
     "legal": "Legal",
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
     "security": "Security",
-    "copyright": "© 2025 ThreadsHost. All rights reserved."
+    "copyright": "© 2025 ThreadsHost. All rights reserved.",
+    "community": "Discord Community",
+    "contact": "Contact Us",
+    "report": "Report Abuse"
   }
 }
