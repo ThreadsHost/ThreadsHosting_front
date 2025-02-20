@@ -42,17 +42,16 @@ Premium game server solutions for the most demanding players.
           <div>
             <h4 className="font-bold mb-4">{t('footer.support')}</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.community')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.contact')}</a></li>
+              <li><a href="https://discord.gg/QnnwNKaV" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.community')}</a></li>
+              <li><a href="https://client.threadshost.com/submitticket.php?step=2&deptid=1" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.contact')}</a></li>
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.report')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.status')}</a></li>
+              <li><a href="https://status.threadshost.com/es" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.status')}</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold mb-4">{t('footer.service')}</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">Game Hosting</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">Bot Hosting</a></li>
             </ul>
           </div>
           <div>
