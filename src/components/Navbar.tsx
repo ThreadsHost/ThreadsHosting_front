@@ -36,7 +36,6 @@ const Navbar = () => {
                 {isServicesOpen && (
                   <div className="absolute left-0 mt-8 w-40 bg-black shadow-md rounded-lg py-2">
                     <a href="#bot-hosting" className="block px-4 py-2 text-sm hover:text-[#3366ff]">{t('navlinks.services.first')}</a>
-                    <a href="#game-servers" className="block px-4 py-2 text-sm hover:text-[#3366ff]">{t('navlinks.services.second')}</a>
                   </div>
                 )}
               </div>
