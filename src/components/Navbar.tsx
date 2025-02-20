@@ -54,7 +54,7 @@ const Navbar = () => {
 
             <div className="flex items-center space-x-6">
               <LanguageSwitcher />
-              <a href='https://client.threadshost.com/' target='_blank' className="px-4 py-2 bg-[#ff3333] hover:bg-[#cc0000] rounded-lg text-sm font-medium transition-all duration-300">
+              <a href='https://client.threadshost.com/index.php?rp=/login' target='_blank' className="px-4 py-2 bg-[#ff3333] hover:bg-[#cc0000] rounded-lg text-sm font-medium transition-all duration-300">
                 {t('hero.clientArea')}
               </a>
             </div>
