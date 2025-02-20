@@ -28,12 +28,12 @@ const Hero = ({ scrollY }: HeroProps) => {
             {t('hero.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-[#ff3333] hover:bg-[#cc0000] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105">
+            <a href="https://client.threadshost.com/register.php" className="bg-[#ff3333] hover:bg-[#cc0000] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105">
               {t('hero.startTrial')}
-            </button>
-            <button className="border border-[#3366ff] hover:bg-[#3366ff]/10 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300">
+            </a>
+            <a className="border border-[#3366ff] hover:bg-[#3366ff]/10 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300">
               {t('hero.viewPlans')}
-            </button>
+            </a>
           </div>
         </div>
       </div>
