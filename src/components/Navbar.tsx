@@ -50,6 +50,9 @@ const Navbar = () => {
               <a href="#doc" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.doc')}
               </a>
+                <a href="#doc" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+                {t('navlinks.about')}
+              </a>
             </div>
 
             <div className="flex items-center space-x-6">
