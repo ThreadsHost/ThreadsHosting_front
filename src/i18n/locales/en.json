@@ -8,7 +8,8 @@
     },
     "status": "Status",
     "news": "News",
-    "doc": "Documentation"
+    "doc": "Documentation",
+    "about": "About us"
   },
   "nav": {
     "about": "About",
