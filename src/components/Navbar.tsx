@@ -40,7 +40,7 @@ const Navbar = () => {
                 )}
               </div>
 
-              <a href="#status" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+              <a href="https://status.threadshost.com/es" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.status')}
               </a>
               <a href="#news" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
