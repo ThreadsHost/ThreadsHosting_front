@@ -71,7 +71,7 @@ const GameServers = () => {
               {/* Hover View */}
               <div className="absolute inset-0 p-6 flex flex-col justify-end items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 <button className="w-full max-w-[200px] py-3 bg-[#ff3333] hover:bg-[#cc0000] rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-                  {t('gameServers.orderNow')}
+                  { server.name == "Minecraft" ? "Ordenar" : t('gameServers.orderNow')}
                 </button>
               </div>
             </div>
