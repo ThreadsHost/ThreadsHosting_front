@@ -33,7 +33,7 @@ Premium game server solutions for the most demanding players.
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.about')}</a></li>
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.partner')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.trust')}</a></li>
+              <li><a href="https://www.trustpilot.com/review/threadshost.com" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.trust')}</a></li>
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.terms')}</a></li>
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.privacy')}</a></li>
               
