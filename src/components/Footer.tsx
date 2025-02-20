@@ -57,10 +57,10 @@ Premium game server solutions for the most demanding players.
           <div>
             <h4 className="font-bold mb-4">{t('footer.account')}</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.my')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.renew')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.login')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.register')}</a></li>
+              <li><a href="https://client.threadshost.com/clientarea.php?action=services" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.my')}</a></li>
+              <li><a href="https://client.threadshost.com/clientarea.php?action=invoices" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.renew')}</a></li>
+              <li><a href="https://client.threadshost.com/index.php?rp=/login" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.login')}</a></li>
+              <li><a href="https://client.threadshost.com/register.php" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.register')}</a></li>
             </ul>
           </div>
         </div>
