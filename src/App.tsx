@@ -4,20 +4,11 @@ import Home from './pages/Home';
 import MinecraftPlans from './components/Minecraft-Hosting';
 
 function App() {
-  // Obtener el subdominio
-  const subdomain = window.location.hostname.split('.')[0];
-
   return (
     <Router>
       <Routes>
-        {subdomain === "minecraft" ? (
-          <Route path="*" element={<MinecraftPlans />} />
-        ) : (
-          <>
-            <Route path="/" element={<Home />} />
-            <Route path="/minecraft" element={<MinecraftPlans />} />
-          </>
-        )}
+        <Route path="/" element={<Home />} />
+        <Route path="/minecraft-hosting" element={<MinecraftPlans />} />
       </Routes>
     </Router>
   );
