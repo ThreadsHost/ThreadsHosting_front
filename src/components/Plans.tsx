@@ -65,7 +65,7 @@ const Plans = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("/second.jpg")',
+          backgroundImage: 'url("/three.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: '0.1'
@@ -154,7 +154,7 @@ const Plans = () => {
                 ))}
               </div>
 
-              <button className={`w-full py-3 rounded-lg font-semibold transition-all duration-300 ${
+              <button onClick={() => window.location.href = "https://www.threadshost.com/minecraft-hosting"} className={`w-full py-3 rounded-lg font-semibold transition-all duration-300 ${
                 plan.popular
                   ? 'bg-[#ff3333] text-white hover:bg-[#cc0000]'
                   : 'bg-black hover:bg-[#222] border-white border'

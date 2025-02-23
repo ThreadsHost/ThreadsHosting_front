@@ -35,7 +35,7 @@ const Navbar = () => {
                 </button>
                 {isServicesOpen && (
                   <div className="absolute left-0 mt-8 w-40 bg-black shadow-md rounded-lg py-2">
-                    <a href="#bot-hosting" className="block px-4 py-2 text-sm hover:text-[#3366ff]">{t('navlinks.services.first')}</a>
+                    <a  href="/minecraft-hosting" className="block px-4 py-2 text-sm hover:text-[#3366ff]">Planes</a>
                   </div>
                 )}
               </div>
@@ -85,12 +85,11 @@ const Navbar = () => {
                   className="text-sm font-medium flex items-center space-x-1 hover:text-[#3366ff] transition-all duration-300"
                   onClick={() => setIsServicesOpen(!isServicesOpen)}
                 >
-                  {t('navlinks.services')} <ChevronDown className="w-4 h-4" />
+                  {t('navlinks.services.title')} <ChevronDown className="w-4 h-4" />
                 </button>
                 {isServicesOpen && (
                   <div className="mt-2 bg-white shadow-md rounded-lg py-2">
-                    <a href="#bot-hosting" className="block px-4 py-2 text-sm hover:bg-gray-100">Bot Hosting</a>
-                    <a href="#game-servers" className="block px-4 py-2 text-sm hover:bg-gray-100">Game Servers</a>
+                    <a href="/minecraft-hosting" className="block px-4 py-2 text-sm hover:bg-gray-100">Planes</a>
                   </div>
                 )}
               </div>

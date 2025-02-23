@@ -24,9 +24,7 @@ function Home() {
         <section className="hero-section">
           <Hero scrollY={scrollY} />
         </section>
-        <section id="features" className="features-section">
-          <Features />
-        </section>
+      
         <section id="plans" className="plans-section">
           <Plans />
         </section>
@@ -35,6 +33,9 @@ function Home() {
         </section>
         <section id="testimonials" className="testimonials-section">
           <Testimonials />
+        </section>
+        <section id="features" className="features-section">
+          <Features />
         </section>
         <section id="faq" className="faq-section">
           <FAQ />
