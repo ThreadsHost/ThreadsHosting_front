@@ -13,7 +13,7 @@ const Hero = ({ scrollY }: HeroProps) => {
       <div 
         className="absolute inset-0 z-0 opacity-20"
         style={{
-          backgroundImage: 'url("https://media.discordapp.net/attachments/1329622574627291260/1340521554433282118/nn.png?ex=67b2a97c&is=67b157fc&hm=74343f61f27dfe246fb2434a5d0acf67d1391ca8b9a26f8f8d0a5d0c28debca3&=&format=webp&quality=lossless&width=1004&height=671")',
+          backgroundImage: 'url("/first.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

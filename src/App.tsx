@@ -1,47 +1,25 @@
-import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import GameServers from './components/GameServers';
-import Plans from './components/Plans';
-import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import MinecraftPlans from './components/Minecraft-Hosting';
 
 function App() {
-  const [scrollY, setScrollY] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  // Obtener el subdominio
+  const subdomain = window.location.hostname.split('.')[0];
 
   return (
-    <div className="min-h-screen bg-black text-white">
-      <Navbar />
-      <main className="relative">
-        <section className="hero-section">
-          <Hero scrollY={scrollY} />
-        </section>
-        <section id="plans" className="plans-section">
-          <Plans />
-        </section>
-        <section id="game-servers" className="game-servers-section">
-          <GameServers />
-        </section>
-             <section id="features" className="features-section">
-          <Features />
-        </section>
-        <section id="testimonials" className="testimonials-section">
-          <Testimonials />
-        </section>
-        <section id="faq" className="faq-section">
-          <FAQ />
-        </section>
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        {subdomain === "minecraft" ? (
+          <Route path="*" element={<MinecraftPlans />} />
+        ) : (
+          <>
+            <Route path="/" element={<Home />} />
+            <Route path="/minecraft" element={<MinecraftPlans />} />
+          </>
+        )}
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Cpu, HardDrive, Network, BarChart, Check } from 'lucide-react';
+import { Cpu, HardDrive, Network, BarChart, Check, Server } from 'lucide-react';
 
 const Plans = () => {
   const [isAnnual, setIsAnnual] = useState(false);
@@ -8,42 +8,55 @@ const Plans = () => {
 
   const plans = [
     {
-      name: t('plans.starter.name'),
-      monthlyPrice: 29.99,
-      annualPrice: 24.99,
+      name: "Carbon",
+      icon: <Server className="w-12 h-12 text-gray-400" />,
+      monthlyPrice: 3.99,
+      annualPrice: 38.30,
       specs: {
-        cpu: "4 vCPU",
-        ram: "8GB RAM",
-        storage: "100GB NVMe SSD",
-        bandwidth: "2TB"
+        cpu: "AMD Ryzen 5600X",
+        cores: "2v Cores",
+        ram: "2GB RAM DDR4",
+        storage: "16GB NVMe",
       },
-      features: t('plans.starter.features', { returnObjects: true })
+      features: [
+        "Acceso a FTP/SFTP",
+        "Soporte al cliente 24/7"
+      ]
     },
     {
-      name: t('plans.proGamer.name'),
-      monthlyPrice: 49.99,
-      annualPrice: 44.99,
+      name: "Hierro",
+      icon: <Server className="w-12 h-12 text-[#b8b8b8]" />,
+      monthlyPrice: 15.99,
+      annualPrice: 153.50,
       popular: true,
       specs: {
-        cpu: "8 vCPU",
-        ram: "16GB RAM",
-        storage: "250GB NVMe SSD",
-        bandwidth: "5TB"
+        cpu: "AMD Ryzen 5600X",
+        cores: "Uso de CPU ilimitado",
+        ram: "8GB RAM DDR4",
+        storage: "64GB NVMe",
       },
-      features: t('plans.proGamer.features', { returnObjects: true })
+      features: [
+        "Acceso a FTP/SFTP",
+        "Soporte al cliente 24/7"
+      ]
     },
     {
-      name: t('plans.elite.name'),
-      monthlyPrice: 89.99,
-      annualPrice: 79.99,
+      name: "Esmeralda",
+      icon: <Server className="w-12 h-12 text-[#50c878]" />,
+      monthlyPrice: 63.99,
+      annualPrice: 614.30,
       specs: {
-        cpu: "12 vCPU",
-        ram: "32GB RAM",
-        storage: "500GB NVMe SSD",
-        bandwidth: "10TB"
+        cpu: "AMD Ryzen 5600X",
+        cores: "Uso de CPU ilimitado",
+        ram: "32GB RAM DDR4",
+        storage: "256GB NVMe",
       },
-      features: t('plans.elite.features', { returnObjects: true })
-    }
+      features: [
+        "IP dedicada incluida",
+        "Acceso a FTP/SFTP",
+        "Soporte al cliente 24/7"
+      ]
+    },
   ];
 
   return (
@@ -52,7 +65,7 @@ const Plans = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("https://media.discordapp.net/attachments/1329622574627291260/1340523191810129980/AA.png?ex=67b2ab02&is=67b15982&hm=880f5fbdc80148a17b522f1a7190dd2b8c8efd16d120be832818d19e5ab9fac9&=&format=webp&quality=lossless&width=1055&height=671")',
+          backgroundImage: 'url("/second.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: '0.1'
@@ -128,10 +141,8 @@ const Plans = () => {
                   <Network className="w-5 h-5 text-[#3366ff]" />
                   <span>{plan.specs.storage}</span>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <BarChart className="w-5 h-5 text-[#3366ff]" />
-                  <span>{plan.specs.bandwidth}</span>
-                </div>
+               
+      
               </div>
 
               <div className="space-y-3 mb-8">

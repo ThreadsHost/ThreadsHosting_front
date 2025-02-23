@@ -8,25 +8,25 @@ const GameServers = () => {
   const gameServers = [
     {
       name: "Minecraft",
-      image: "https://cdn.discordapp.com/attachments/1329622574627291260/1340536425371799623/traveling_by_rudyttt_dghn0t8-300w-2x.jpg?ex=67b2b755&is=67b165d5&hm=628f19047fc8a5060bc53ba0dbb764533a0b74a58d711b16da78018b871a6980&",
+      image: "./minecraft.jpg",
       price: 14.99,
       icon: <Gamepad2 className="w-8 h-8" />
     },
     {
       name: "Rust",
-      image: "https://cdn.discordapp.com/attachments/1329622574627291260/1340537439642452119/75acbd1acf85.png?ex=67b2b847&is=67b166c7&hm=a6a378c827c25765ac25f0a44bab26544ae587184b8c803999c8709501c35a76&",
+      image: "/rust.png",
       price: 24.99,
       icon: <Hammer className="w-8 h-8" />
     },
     {
       name: "MTA",
-      image: "https://media.discordapp.net/attachments/1329622574627291260/1340796611109847141/gg.png?ex=67b3a9a6&is=67b25826&hm=1e3c001cb7e393820d71efcbee5d2c39edd3177bd2b1522c64c0b49e76b1fbdf&=&format=webp&quality=lossless&width=503&height=671",
+      image: "mta.png",
       price: 19.99,
       icon: <Car className="w-8 h-8" />
     },
     {
       name: "SA:MP",
-      image: "https://cdn.discordapp.com/attachments/1329622574627291260/1340796969907650650/0e68de59b4040da71ee088c3718a1a27.jpg?ex=67b3a9fc&is=67b2587c&hm=2cf70a868e1d8e005a2eb41418d50bad52b6f9555b56a1fd76173e10bac6dcfc&",
+      image: "samp.jpg",
       price: 16.99,
       icon: <Users2 className="w-8 h-8" />
     }
@@ -38,7 +38,7 @@ const GameServers = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("https://cdn.discordapp.com/attachments/1329622574627291260/1340533007580139540/joshua-hoehne-p4NcAwtZj8c-unsplash.jpg?ex=67b2b426&is=67b162a6&hm=b06415b2af36344a395edf4b4be5ca872b3a8231fe5e2c91802537f1445280f8&")',
+          backgroundImage: 'url("/three.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
