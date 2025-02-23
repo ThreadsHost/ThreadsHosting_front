@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import MinecraftPlans from './components/Minecraft-Hosting';
 
+/*
+  TESTING, DEPLOY
+
+*/
 
 //Comment
 function App() {
