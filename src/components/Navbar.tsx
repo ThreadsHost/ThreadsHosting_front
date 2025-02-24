@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2" onClick={() => window.location.href = "/"}>
             <img src="/logo.png" className="w-12 h-12 text-[#ff3333] animate-float" />
             <span className="text-lg font-orbitron font-bold">ThreadsHost</span>
           </div>

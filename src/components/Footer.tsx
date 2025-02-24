@@ -16,7 +16,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <img className="w-12 h-12 text-[#ff3333]" src="/logo.png" />
-              <span className="text-lg font-bold">ThreadsHost</span>
+              <span className="text-lg font-bold text-white">ThreadsHost</span>
             </div>
             <p className="text-gray-400">
 Premium game server solutions for the most demanding players.
@@ -29,7 +29,7 @@ Premium game server solutions for the most demanding players.
             </div>
           </div>
           <div>
-            <h4 className="font-bold mb-4">{t('footer.company')}</h4>
+            <h4 className="font-bold mb-4 text-white">{t('footer.company')}</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.about')}</a></li>
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.partner')}</a></li>
@@ -40,7 +40,7 @@ Premium game server solutions for the most demanding players.
             </ul>
           </div>
           <div>
-            <h4 className="font-bold mb-4">{t('footer.support')}</h4>
+            <h4 className="font-bold mb-4 text-white">{t('footer.support')}</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="https://discord.gg/QnnwNKaV" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.community')}</a></li>
               <li><a href="https://client.threadshost.com/submitticket.php?step=2&deptid=1" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.contact')}</a></li>
@@ -49,13 +49,13 @@ Premium game server solutions for the most demanding players.
             </ul>
           </div>
           <div>
-            <h4 className="font-bold mb-4">{t('footer.service')}</h4>
+            <h4 className="font-bold mb-4 text-white">{t('footer.service')}</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">Minecraft Hosting</a></li>
             </ul>
           </div>
           <div>
-            <h4 className="font-bold mb-4">{t('footer.account')}</h4>
+            <h4 className="font-bold mb-4 text-white">{t('footer.account')}</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="https://client.threadshost.com/clientarea.php?action=services" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.my')}</a></li>
               <li><a href="https://client.threadshost.com/clientarea.php?action=invoices" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.renew')}</a></li>
