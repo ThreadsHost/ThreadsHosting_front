@@ -46,7 +46,7 @@ const GameServers = () => {
       />
 
       {/* Overlay semitransparente para mejorar la legibilidad */}
-      <div className="absolute inset-0 bg-black/50 z-0" /> {/* Fondo negro semitransparente */}
+      <div className="absolute inset-0  z-0" /> {/* Fondo negro semitransparente */}
 
       {/* Contenido principal */}
       <div className="container mx-auto px-6 relative z-10">

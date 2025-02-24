@@ -124,86 +124,11 @@ html {
 }
 
 /* Section Styles */
-section {
-  position: relative;
-  overflow: hidden;
-}
 
-/* Common section gradient */
-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 150px;
-  background: linear-gradient(to bottom, 
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  z-index: 1;
-  pointer-events: none;
-}
 
-section::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 90px;
-  background: linear-gradient(to top, 
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 0) 40%
-  );
-  z-index: 1;
-  pointer-events: none;
-}
 
 /* Section-specific backgrounds with gradients */
 .hero-section {
-  background: radial-gradient(circle at center,
-    rgba(255, 51, 51, 0.15) 0%,
-    rgba(0, 0, 0, 0) 70%
-  );
-}
-
-.features-section {
-  background: radial-gradient(circle at right top,
-    rgba(51, 102, 255, 0.15) 0%,
-    rgba(0, 0, 0, 0) 70%
-  );
-}
-
-.plans-section {
-  background: radial-gradient(circle at left center,
-    rgba(255, 51, 51, 0.15) 0%,
-    rgba(0, 0, 0, 0) 70%
-  );
-}
-
-.game-servers-section {
-  background: radial-gradient(circle at right center,
-    rgba(51, 102, 255, 0.15) 0%,
-    rgba(0, 0, 0, 0) 70%
-  );
-}
-
-.testimonials-section {
-  background: radial-gradient(circle at left bottom,
-    rgba(255, 51, 51, 0.15) 0%,
-    rgba(0, 0, 0, 0) 70%
-  );
-}
-
-.faq-section {
-  background: radial-gradient(circle at center bottom,
-    rgba(51, 102, 255, 0.15) 0%,
-    rgba(0, 0, 0, 0) 70%
-  );
-}
-
-.newsletter-section {
   background: radial-gradient(circle at center,
     rgba(255, 51, 51, 0.15) 0%,
     rgba(0, 0, 0, 0) 70%
