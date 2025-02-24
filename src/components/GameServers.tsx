@@ -34,20 +34,21 @@ const GameServers = () => {
 
   return (
     <section className="relative py-20 overflow-hidden">
-      {/* Background Image with Gradient Overlay */}
+      {/* Background Image */}
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("/second.jpg")',
+          backgroundImage: 'url("/four.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
-          opacity: '0.1'
+          opacity: '0.2' // Ajusta la opacidad del fondo
         }}
       />
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-0" />
 
+      {/* Overlay semitransparente para mejorar la legibilidad */}
+      <div className="absolute inset-0 bg-black/50 z-0" /> {/* Fondo negro semitransparente */}
+
+      {/* Contenido principal */}
       <div className="container mx-auto px-6 relative z-10">
         <h2 className="text-4xl font-bold text-center mb-12">{t('gameServers.title')}</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -58,7 +59,7 @@ const GameServers = () => {
                 alt={server.name}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-90" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-black/50 to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-90" />
               
               {/* Default View */}
               <div className="absolute inset-0 p-6 flex flex-col justify-between transition-opacity duration-300 group-hover:opacity-0">
@@ -70,8 +71,11 @@ const GameServers = () => {
 
               {/* Hover View */}
               <div className="absolute inset-0 p-6 flex flex-col justify-end items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                <button className="w-full max-w-[200px] py-3 bg-[#ff3333] hover:bg-[#cc0000] rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-                  { server.name == "Minecraft" ? "Ordenar" : t('gameServers.orderNow')}
+                <button 
+                  onClick={() => window.location.href = "/minecraft-hosting"} 
+                  className="w-full max-w-[200px] py-3 bg-[#ff3333] hover:bg-[#cc0000] rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+                >
+                  {server.name === "Minecraft" ? "Ordenar" : t('gameServers.orderNow')}
                 </button>
               </div>
             </div>

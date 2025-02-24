@@ -60,22 +60,27 @@ const Plans = () => {
   ];
 
   return (
-    <section className="relative py-20 overflow-hidden">
-      {/* Background Image with Gradient Overlay */}
+    <section className="relative overflow-hidden">
+      {/* Background Image */}
       <div 
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: 'url("/three.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          opacity: '0.1'
+          opacity: '0.8' // Ajusta la opacidad de la imagen
         }}
       />
+      
+      {/* Overlay semitransparente */}
+      <div className="absolute inset-0 bg-black/70 z-0" /> {/* Fondo negro semitransparente */}
+
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-0" />
 
-      <div className="container mx-auto px-6 relative z-10">
-        <div className="text-center mb-12 mt-20">
+      {/* Contenido principal */}
+      <div className="container mx-auto px-6 relative z-10 pb-20">
+        <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-6">{t('plans.title')}</h2>
           <div className="inline-flex items-center justify-center space-x-4 bg-[#111] p-2 rounded-full">
             <span 
@@ -88,7 +93,7 @@ const Plans = () => {
               onClick={() => setIsAnnual(!isAnnual)}
               className="relative w-16 h-8 bg-black rounded-full p-1 transition-colors duration-300"
             >
-             <div
+              <div
                 className={`absolute top-1 w-6 h-6 bg-[#ff3333] rounded-full transition-transform duration-300 ${
                   isAnnual ? 'translate-x-8' : 'translate-x-0'
                 }`}
@@ -125,7 +130,6 @@ const Plans = () => {
                   ${isAnnual ? plan.annualPrice : plan.monthlyPrice}
                 </span>
                 <span className="text-gray-400">{t('plans.perMonth')}</span>
-          
               </div>
 
               <div className="space-y-4 mb-8">
@@ -141,8 +145,6 @@ const Plans = () => {
                   <Network className="w-5 h-5 text-[#3366ff]" />
                   <span>{plan.specs.storage}</span>
                 </div>
-               
-      
               </div>
 
               <div className="space-y-3 mb-8">

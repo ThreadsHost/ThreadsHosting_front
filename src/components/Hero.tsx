@@ -9,7 +9,7 @@ const Hero = ({ scrollY }: HeroProps) => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center py-20 px-6 section-bg">
+    <section className="relative  flex items-center justify-center h-[100vh] px-6 section-bg">
       <div 
         className="absolute inset-0 z-0 opacity-20"
         style={{
@@ -18,7 +18,7 @@ const Hero = ({ scrollY }: HeroProps) => {
           backgroundPosition: 'center',
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/90 z-0" />
+
       <div className="container mx-auto relative z-10">
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-5xl pb-2 md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#ff3333] to-[#3366ff] gradient-animate">

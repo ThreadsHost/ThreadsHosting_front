@@ -21,7 +21,7 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-12">
             <div className="flex items-center space-x-8">
-              <a href="#features" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+              <a href="/" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.home')}
               </a>
               
@@ -43,13 +43,13 @@ const Navbar = () => {
               <a href="https://status.threadshost.com/es" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.status')}
               </a>
-              <a href="#news" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+              <a href="https://www.threadshost.com/#news" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.news')}
               </a>
-              <a href="#doc" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+              <a href="https://www.threadshost.com/#doc" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.doc')}
               </a>
-                <a href="#doc" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+                <a href="https://www.threadshost.com/#doc" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.about')}
               </a>
             </div>
