@@ -44,7 +44,6 @@ const MinecraftPlans = () => {
       icon: <Server className="w-12 h-12 text-[#b8b8b8]" />,
       monthlyPrice: 15.99,
       annualPrice: 153.50,
-      popular: true,
       specs: {
         cpu: "AMD Ryzen 5600X",
         cores: "Uso de CPU ilimitado",
@@ -78,6 +77,7 @@ const MinecraftPlans = () => {
       icon: <Server className="w-12 h-12 text-[#50c878]" />,
       monthlyPrice: 63.99,
       annualPrice: 614.30,
+      popular: true,
       specs: {
         cpu: "AMD Ryzen 5600X",
         cores: "Uso de CPU ilimitado",
@@ -115,11 +115,11 @@ const MinecraftPlans = () => {
         <Navbar/>
         
         {/* Hero Section */}
-        <section className="relative py-20 overflow-hidden ">
+        <section className="relative overflow-hidden ">
           <div 
             className="absolute inset-0 z-0 opacity-20"
             style={{
-              backgroundImage: 'url("https://media.discordapp.net/attachments/1342672300495081524/1343313322841342014/image.png?ex=67bcd185&is=67bb8005&hm=00d5e0fcd04a3de8670aa1dbc3b0863fb5077ac7586c4d756417d63d74313701&=&format=webp&quality=lossless&width=1440&height=332")',
+              backgroundImage: 'url("mc2.jpg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -144,16 +144,16 @@ const MinecraftPlans = () => {
         {/* Plans Section */}
         <section className="relative py-20 mb-14">
           <div 
-            className="absolute inset-0 z-0 opacity-20"
+            className="absolute inset-0 z-0"
             style={{
-              backgroundImage: 'url("https://cdn.discordapp.com/attachments/1342672300495081524/1343300976315994112/joshua-hoehne-p4NcAwtZj8c-unsplash.jpg?ex=67bcc606&is=67bb7486&hm=d70ff0ca6445e1715329c1971b32c77076b8a242ec83f55cfefe19332f5744d4&")',
+              backgroundImage: 'url("/mc1.jpg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
+              opacity: 0.3
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-b z-0" />
 
-          <div className="container mx-auto px-6 relative z-10">
+          <div className="container mx-auto px-6 relative z-10 pt-8">
             <div className="text-center mb-12">
               <div className="inline-flex items-center justify-center space-x-4 bg-[#111] p-2 rounded-full">
                 <span 
@@ -183,16 +183,10 @@ const MinecraftPlans = () => {
               {plans.map((plan, index) => (
                 <div
                   key={index}
-                  className={`relative bg-gradient-to-br from-black/80 to-black/40 backdrop-blur-sm rounded-xl p-8 transition-all duration-300 slide-up hover:transform hover:scale-105`}
+                  className={`hover:border-red-500 hover:border relative bg-gradient-to-br from-black/80 to-black/40 backdrop-blur-sm rounded-xl p-8 transition-all duration-300 slide-up hover:transform hover:scale-105`}
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
-                  {plan.popular && (
-                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                      <span className="bg-[#ff3333] text-white px-4 py-1 rounded-full text-sm font-semibold">
-                        Más Popular
-                      </span>
-                    </div>
-                  )}
+                 
 
                   <div className="flex items-center justify-between mb-6">
                     <div>

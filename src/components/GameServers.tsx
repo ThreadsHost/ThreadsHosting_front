@@ -38,7 +38,7 @@ const GameServers = () => {
   <div
     className="absolute inset-0 z-0"
     style={{
-      backgroundImage: 'url("/four.png")',
+      backgroundImage: 'url("/bg.jpg")',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       opacity: 0.3, // Ajusta la opacidad si lo necesitas
@@ -46,9 +46,9 @@ const GameServers = () => {
   />
 
   {/* Contenido principal */}
-  <div className="container mx-auto px-6 relative z-10">
+  <div className="container mx-auto px-6 relative z-10 py-24">
     <h2 className="text-4xl font-bold text-center mb-12">{t('gameServers.title')}</h2>
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
       {gameServers.map((server, index) => (
         <div key={index} className="group relative aspect-[4/5] rounded-xl overflow-hidden">
           <img

@@ -31,7 +31,7 @@ function Home() {
         <section id="game-servers" className="game-servers-section">
           <GameServers />
         </section>
-        <section id="testimonials" className="testimonials-section">
+        <section>
           <Testimonials />
         </section>
         <section id="features" className="features-section">

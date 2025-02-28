@@ -26,7 +26,13 @@ Premium game server solutions for the most demanding players.
               <Facebook className="text-3xl"/>
               <Instagram className="text-3xl"/>
               <Discord className="text-3xl"/>
+              
             </div>
+            <div className="trustpilot-widget  relative right-12 p-2" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc"  data-businessunit-id="67b27d8e3abf0d2eed0d968d" data-style-height="43px" data-style-width="100%">
+<a href="https://www.trustpilot.com/review/threadshost.com" target="_blank" rel="noopener" className='text-start'>Trustpilot</a>
+</div>
+
+
           </div>
           <div>
             <h4 className="font-bold mb-4 text-white">{t('footer.company')}</h4>
@@ -51,7 +57,7 @@ Premium game server solutions for the most demanding players.
           <div>
             <h4 className="font-bold mb-4 text-white">{t('footer.service')}</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">Minecraft Hosting</a></li>
+              <li><a href="/minecraft-hosting" className="hover:text-[#3366ff] transition-colors duration-300">Minecraft Hosting</a></li>
             </ul>
           </div>
           <div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Server, Menu, X, ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -13,9 +14,9 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2" onClick={() => window.location.href = "/"}>
+          <div className="flex items-center space-x-2" >
             <img src="/logo.png" className="w-12 h-12 text-[#ff3333] animate-float" />
-            <span className="text-lg font-orbitron font-bold">ThreadsHost</span>
+          <Link to={"/"}>    <span className="text-lg font-orbitron font-bold">ThreadsHost</span></Link>
           </div>
 
           {/* Desktop Menu */}
@@ -35,17 +36,17 @@ const Navbar = () => {
                 </button>
                 {isServicesOpen && (
                   <div className="absolute left-0 mt-8 w-40 bg-black shadow-md rounded-lg py-2">
-                    <a  href="/minecraft-hosting" className="block px-4 py-2 text-sm hover:text-[#3366ff]">Planes</a>
+                    <a  href="/minecraft-hosting" className="block px-4 py-2 text-sm hover:text-[#3366ff]">Minecraft Hosting</a>
                   </div>
                 )}
               </div>
 
-              <a href="https://status.threadshost.com/es" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+              <a href="/" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.status')}
               </a>
-              <a href="https://www.threadshost.com/#news" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+              {/* <a href="https://www.threadshost.com/#news" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.news')}
-              </a>
+              </a> */}
               <a href="https://www.threadshost.com/#doc" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.doc')}
               </a>

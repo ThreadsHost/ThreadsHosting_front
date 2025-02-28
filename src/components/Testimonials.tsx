@@ -49,24 +49,23 @@ const Testimonials = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("https://media.discordapp.net/attachments/1329622574627291260/1341179769932349481/mark-chan-2rhsI6_B8cA-unsplash.jpg?ex=67b50e7f&is=67b3bcff&hm=20433bc0f9d56607013c0abf7fb0928828380827863b9f14501fce7f2cb5d746&=&format=webp&width=1007&height=671")',
+          backgroundImage: 'url("/second.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          opacity: '0.1'
+          opacity: '0.3'
         }}
       />
       {/* Gradient Overlay */}
-      <div className="absolute inset-0  z-0" />
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">{t('testimonials.title')}</h2>
+          <h2 className="text-4xl font-bold mb-4 ">{t('testimonials.title')}</h2>
         </div>
         
         <div className="relative">
           <Swiper
             modules={[Autoplay, Pagination, Navigation]}
-            spaceBetween={30}
+            spaceBetween={55}
             slidesPerView={1}
             breakpoints={{
               640: { slidesPerView: 2 },

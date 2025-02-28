@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Cpu, HardDrive, Network, BarChart, Check, Server } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Plans = () => {
   const [isAnnual, setIsAnnual] = useState(false);
@@ -24,25 +25,9 @@ const Plans = () => {
       ]
     },
     {
-      name: "Hierro",
-      icon: <Server className="w-12 h-12 text-[#b8b8b8]" />,
-      monthlyPrice: 15.99,
-      annualPrice: 153.50,
-      popular: true,
-      specs: {
-        cpu: "AMD Ryzen 5600X",
-        cores: "Uso de CPU ilimitado",
-        ram: "8GB RAM DDR4",
-        storage: "64GB NVMe",
-      },
-      features: [
-        "Acceso a FTP/SFTP",
-        "Soporte al cliente 24/7"
-      ]
-    },
-    {
       name: "Esmeralda",
       icon: <Server className="w-12 h-12 text-[#50c878]" />,
+      popular: true,
       monthlyPrice: 63.99,
       annualPrice: 614.30,
       specs: {
@@ -57,6 +42,23 @@ const Plans = () => {
         "Soporte al cliente 24/7"
       ]
     },
+    {
+      name: "Hierro",
+      icon: <Server className="w-12 h-12 text-[#b8b8b8]" />,
+      monthlyPrice: 15.99,
+      annualPrice: 153.50,
+      specs: {
+        cpu: "AMD Ryzen 5600X",
+        cores: "Uso de CPU ilimitado",
+        ram: "8GB RAM DDR4",
+        storage: "64GB NVMe",
+      },
+      features: [
+        "Acceso a FTP/SFTP",
+        "Soporte al cliente 24/7"
+      ]
+    },
+   
   ];
 
   return (
@@ -72,17 +74,13 @@ const Plans = () => {
         }}
       />
       
-      {/* Overlay semitransparente */}
-      <div className="absolute inset-0 z-0" /> {/* Fondo negro semitransparente */}
 
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0  z-0" />
 
       {/* Contenido principal */}
-      <div className="container mx-auto px-6 relative z-10 pb-20">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-6">{t('plans.title')}</h2>
-          <div className="inline-flex items-center justify-center space-x-4 bg-[#111] p-2 rounded-full">
+      <div className="container mx-auto px-6 relative z-10 pb-20 p-16">
+          <h2 className="text-4xl font-bold text-center mt-8">{t('plans.title')}</h2>
+        <div className="text-center mb-12 mt-6">
+          <div className="inline-flex items-center justify-center space-x-4 bg-[#111] p-2 rounded-full ">
             <span 
               className={`px-4 py-2 rounded-full cursor-pointer transition-colors duration-300 ${!isAnnual ? 'bg-[#ff3333] text-white' : 'text-gray-400'}`}
               onClick={() => setIsAnnual(false)}
@@ -108,11 +106,11 @@ const Plans = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 pb-20">
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative bg-black/50 backdrop-blur-sm rounded-xl p-8 slide-up ${
+              className={`relative bg-black/70 backdrop-blur-sm rounded-xl p-8 slide-up ${
                 plan.popular ? 'border-2 border-[#ff3333]' : ''
               }`}
               style={{ animationDelay: `${index * 200}ms` }}
@@ -155,13 +153,13 @@ const Plans = () => {
                   </div>
                 ))}
               </div>
-
-              <button onClick={() => window.location.href = "https://www.threadshost.com/minecraft-hosting"} className={`w-full py-3 rounded-lg font-semibold transition-all duration-300 ${
+              
+              <button  className={`w-full py-3 rounded-lg font-semibold transition-all duration-300 ${
                 plan.popular
                   ? 'bg-[#ff3333] text-white hover:bg-[#cc0000]'
                   : 'bg-black hover:bg-[#222] border-white border'
               } hover:shadow-lg hover:shadow-[#ff3333]/25 transform hover:scale-105`}>
-                {t('plans.selectPlan')}
+               <Link to={"/minecraft-hosting"}>{t('plans.selectPlan')}</Link>
               </button>
             </div>
           ))}
