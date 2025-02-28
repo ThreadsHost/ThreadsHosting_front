@@ -115,7 +115,7 @@ const MinecraftPlans = () => {
         <Navbar/>
         
         {/* Hero Section */}
-        <section className="relative overflow-hidden ">
+        <section className="relative overflow-hidden py-20  ">
           <div 
             className="absolute inset-0 z-0 opacity-20"
             style={{
