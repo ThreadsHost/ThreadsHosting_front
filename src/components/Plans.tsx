@@ -12,7 +12,7 @@ const Plans = () => {
       name: "Carbon",
       icon: <Server className="w-12 h-12 text-gray-400" />,
       monthlyPrice: 3.99,
-      annualPrice: 38.30,
+      annualPrice: 42.99,
       specs: {
         cpu: "AMD Ryzen 5600X",
         cores: "2v Cores",
@@ -29,7 +29,7 @@ const Plans = () => {
       icon: <Server className="w-12 h-12 text-[#50c878]" />,
       popular: true,
       monthlyPrice: 63.99,
-      annualPrice: 614.30,
+      annualPrice: 689.99,
       specs: {
         cpu: "AMD Ryzen 5600X",
         cores: "Uso de CPU ilimitado",
@@ -46,7 +46,7 @@ const Plans = () => {
       name: "Hierro",
       icon: <Server className="w-12 h-12 text-[#b8b8b8]" />,
       monthlyPrice: 15.99,
-      annualPrice: 153.50,
+      annualPrice: 171.99,
       specs: {
         cpu: "AMD Ryzen 5600X",
         cores: "Uso de CPU ilimitado",
@@ -82,7 +82,7 @@ const Plans = () => {
         <div className="text-center mb-12 mt-6">
           <div className="inline-flex items-center justify-center space-x-4 bg-[#111] p-2 rounded-full ">
             <span 
-              className={`px-4 py-2 rounded-full cursor-pointer transition-colors duration-300 ${!isAnnual ? 'bg-[#ff3333] text-white' : 'text-gray-400'}`}
+              className={`px-4 py-2 rounded-full cursor-pointer transition-colors duration-300 ${!isAnnual ? 'bg-[#b2071d] text-white' : 'text-gray-400'}`}
               onClick={() => setIsAnnual(false)}
             >
               {t('plans.monthly')}
@@ -92,7 +92,7 @@ const Plans = () => {
               className="relative w-16 h-8 bg-black rounded-full p-1 transition-colors duration-300"
             >
               <div
-                className={`absolute top-1 w-6 h-6 bg-[#ff3333] rounded-full transition-transform duration-300 ${
+                className={`absolute top-1 w-6 h-6 bg-[#b2071d] rounded-full transition-transform duration-300 ${
                   isAnnual ? 'translate-x-8' : 'translate-x-0'
                 }`}
               />
@@ -111,13 +111,13 @@ const Plans = () => {
             <div
               key={index}
               className={`relative bg-black/70 backdrop-blur-sm rounded-xl p-8 slide-up ${
-                plan.popular ? 'border-2 border-[#ff3333]' : ''
+                plan.popular ? 'border-2 border-[#b2071d]' : ''
               }`}
               style={{ animationDelay: `${index * 200}ms` }}
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-[#ff3333] text-white px-4 py-1 rounded-full text-sm font-semibold">
+                  <span className="bg-[#b2071d] text-white px-4 py-1 rounded-full text-sm font-semibold">
                     {t('plans.mostPopular')}
                   </span>
                 </div>
@@ -148,7 +148,7 @@ const Plans = () => {
               <div className="space-y-3 mb-8">
                 {plan.features.map((feature, idx) => (
                   <div key={idx} className="flex items-center space-x-3 text-gray-300">
-                    <Check className="w-5 h-5 text-[#ff3333]" />
+                    <Check className="w-5 h-5 text-[#b2071d]" />
                     <span>{feature}</span>
                   </div>
                 ))}
@@ -156,7 +156,7 @@ const Plans = () => {
               
               <button  className={`w-full py-3 rounded-lg font-semibold transition-all duration-300 ${
                 plan.popular
-                  ? 'bg-[#ff3333] text-white hover:bg-[#cc0000]'
+                  ? 'bg-[#b2071d] text-white hover:bg-[#cc0000]'
                   : 'bg-black hover:bg-[#222] border-white border'
               } hover:shadow-lg hover:shadow-[#ff3333]/25 transform hover:scale-105`}>
                <Link to={"/minecraft-hosting"}>{t('plans.selectPlan')}</Link>

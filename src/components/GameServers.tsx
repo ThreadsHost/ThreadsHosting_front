@@ -33,54 +33,52 @@ const GameServers = () => {
   ];
 
   return (
-<section className="relative py-20 overflow-hidden">
-  {/* Fondo de la imagen sin parallax */}
-  <div
-    className="absolute inset-0 z-0"
-    style={{
-      backgroundImage: 'url("/bg.jpg")',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      opacity: 0.3, // Ajusta la opacidad si lo necesitas
-    }}
-  />
+    <section className="relative py-20 overflow-hidden">
+      {/* Fondo de la imagen sin parallax */}
+      <div
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: 'url("/bg.jpg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          opacity: 0.3,
+        }}
+      />
 
-  {/* Contenido principal */}
-  <div className="container mx-auto px-6 relative z-10 py-24">
-    <h2 className="text-4xl font-bold text-center mb-12">{t('gameServers.title')}</h2>
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
-      {gameServers.map((server, index) => (
-        <div key={index} className="group relative aspect-[4/5] rounded-xl overflow-hidden">
-          <img
-            src={server.image}
-            alt={server.name}
-            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-          {/* Capa de fondo semitransparente */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-black/50 to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-90" />
+      {/* Contenido principal */}
+      <div className="container mx-auto px-6 relative z-10 py-24">
+        <h2 className="text-4xl font-bold text-center mb-12">{t('gameServers.title')}</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
+          {gameServers.map((server, index) => (
+            <div key={index} className="group relative aspect-[4/5] rounded-xl overflow-hidden">
+              <img
+                src={server.image}
+                alt={server.name}
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              />
+              {/* Capa de fondo semitransparente */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-black/50 to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-90" />
 
-          {/* Vista predeterminada */}
-          <div className="absolute inset-0 p-6 flex flex-col justify-between transition-opacity duration-300 group-hover:opacity-0">
-            <div className="text-[#ff3333]">{server.icon}</div>
-            <h3 className="text-2xl font-bold">{server.name}</h3>
-          </div>
+              {/* Vista predeterminada */}
+              <div className="absolute inset-0 p-6 flex flex-col justify-between transition-opacity duration-300 group-hover:opacity-0">
+                <div className="text-[#b2071d]">{server.icon}</div>
+                <h3 className="text-2xl font-bold">{server.name}</h3>
+              </div>
 
-          {/* Vista al hacer hover */}
-          <div className="absolute inset-0 p-6 flex flex-col justify-end items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            <button
-              onClick={() => window.location.href = "/minecraft-hosting"}
-              className="w-full max-w-[200px] py-3 bg-[#ff3333] hover:bg-[#cc0000] rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
-            >
-              {server.name === "Minecraft" ? "Ordenar" : t('gameServers.orderNow')}
-            </button>
-          </div>
+              {/* Vista al hacer hover */}
+              <div className="absolute inset-0 p-6 flex flex-col justify-end items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <button
+                  onClick={() => server.name === "Minecraft" ? window.location.href = "/minecraft-hosting" : null}
+                  className="w-full max-w-[200px] py-3 bg-[#b2071d] hover:bg-[#cc0000] rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+                >
+                  {server.name === "Minecraft" ? "Ordenar" : t('gameServers.orderNow')}
+                </button>
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
-  </div>
-</section>
-
-
+      </div>
+    </section>
   );
 };
 

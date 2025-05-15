@@ -11,7 +11,7 @@ const MinecraftPlans = () => {
       name: "Carbon",
       icon: <Server className="w-12 h-12 text-gray-400" />,
       monthlyPrice: 3.99,
-      annualPrice: 38.30,
+      annualPrice: 42.99,
       specs: {
         cpu: "AMD Ryzen 5600X",
         cores: "2v Cores",
@@ -43,7 +43,7 @@ const MinecraftPlans = () => {
       name: "Hierro",
       icon: <Server className="w-12 h-12 text-[#b8b8b8]" />,
       monthlyPrice: 15.99,
-      annualPrice: 153.50,
+      annualPrice: 171.99,
       specs: {
         cpu: "AMD Ryzen 5600X",
         cores: "Uso de CPU ilimitado",
@@ -76,7 +76,7 @@ const MinecraftPlans = () => {
       name: "Esmeralda",
       icon: <Server className="w-12 h-12 text-[#50c878]" />,
       monthlyPrice: 63.99,
-      annualPrice: 614.30,
+      annualPrice: 689.99,
       popular: true,
       specs: {
         cpu: "AMD Ryzen 5600X",
@@ -94,7 +94,7 @@ const MinecraftPlans = () => {
       name: "Diamante",
       icon: <Server className="w-12 h-12 text-[#3366ff]" />,
       monthlyPrice: 127.99 ,
-      annualPrice:  1228.70,
+      annualPrice:  1381.99,
       specs: {
         cpu: "AMD Ryzen 5600X",
         cores: "Uso de CPU ilimitado",
@@ -128,7 +128,7 @@ const MinecraftPlans = () => {
           
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center max-w-3xl mx-auto">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#ff3333] to-white gradient-animate mt-9 p-4">
+              <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#b2071d] to-white gradient-animate mt-9 p-4">
                 Minecraft Hosting
               </h1>
               <p className="text-xl text-gray-300 mb-8">
@@ -157,7 +157,7 @@ const MinecraftPlans = () => {
             <div className="text-center mb-12">
               <div className="inline-flex items-center justify-center space-x-4 bg-[#111] p-2 rounded-full">
                 <span 
-                  className={`px-4 py-2 rounded-full cursor-pointer transition-colors duration-300 ${!isAnnual ? 'bg-[#ff3333] text-white' : 'text-gray-400'}`}
+                  className={`px-4 py-2 rounded-full cursor-pointer transition-colors duration-300 ${!isAnnual ? 'bg-[#b2071d] text-white' : 'text-gray-400'}`}
                   onClick={() => setIsAnnual(false)}
                 >
                   Mensual
@@ -167,14 +167,14 @@ const MinecraftPlans = () => {
                   className="relative w-16 h-8 bg-black rounded-full p-1 transition-colors duration-300"
                 >
                   <div
-                    className={`absolute top-1 w-6 h-6 bg-[#ff3333] rounded-full transition-transform duration-300 ${isAnnual ? 'translate-x-8' : 'translate-x-0'}`}
+                    className={`absolute top-1 w-6 h-6 bg-[#b2071d] rounded-full transition-transform duration-300 ${isAnnual ? 'translate-x-8' : 'translate-x-0'}`}
                   />
                 </button>
                 <span 
-                  className={`px-4 py-2 rounded-full cursor-pointer transition-colors duration-300 ${isAnnual ? 'bg-[#ff3333] text-white' : 'text-gray-400'}`}
+                  className={`px-4 py-2 rounded-full cursor-pointer transition-colors duration-300 ${isAnnual ? 'bg-[#b2071d] text-white' : 'text-gray-400'}`}
                   onClick={() => setIsAnnual(true)}
                 >
-                  Anual
+                  Anual (Ahorra 10%)
                 </span>
               </div>
             </div>
@@ -183,7 +183,7 @@ const MinecraftPlans = () => {
               {plans.map((plan, index) => (
                 <div
                   key={index}
-                  className={`hover:border-red-500 hover:border relative bg-gradient-to-br from-black/80 to-black/40 backdrop-blur-sm rounded-xl p-8 transition-all duration-300 slide-up hover:transform hover:scale-105`}
+                  className={`hover:border-[#b2071d] hover:border relative bg-gradient-to-br from-black/80 to-black/40 backdrop-blur-sm rounded-xl p-8 transition-all duration-300 slide-up hover:transform hover:scale-105`}
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
                  
@@ -203,15 +203,15 @@ const MinecraftPlans = () => {
 
                   <div className="space-y-4 mb-8">
                     <div className="flex items-center space-x-3">
-                      <Cpu className="w-5 h-5 text-[#ff3333]" />
+                      <Cpu className="w-5 h-5 text-[#b2071d]" />
                       <span>{plan.specs.cpu}</span>
                     </div>
                     <div className="flex items-center space-x-3">
-                      <HardDrive className="w-5 h-5 text-[#ff3333]" />
+                      <HardDrive className="w-5 h-5 text-[#b2071d]" />
                       <span>{plan.specs.ram}</span>
                     </div>
                     <div className="flex items-center space-x-3">
-                      <Network className="w-5 h-5 text-[#ff3333]" />
+                      <Network className="w-5 h-5 text-[#b2071d]" />
                       <span>{plan.specs.storage}</span>
                     </div>
                   </div>
@@ -219,13 +219,13 @@ const MinecraftPlans = () => {
                   <div className="space-y-3 mb-8">
                     {plan.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center space-x-3 text-gray-300">
-                        <Check className="w-5 h-5 text-[#ff3333]" />
+                        <Check className="w-5 h-5 text-[#b2071d]" />
                         <span>{feature}</span>
                       </div>
                     ))}
                   </div>
 
-                  <button className="w-full py-3 rounded-lg font-semibold transition-all duration-300 bg-[#ff3333] text-white">
+                  <button className="w-full py-3 rounded-lg font-semibold transition-all duration-300 bg-[#b2071d] text-white">
                     Comprar
                   </button>
                 </div>

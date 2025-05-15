@@ -80,7 +80,7 @@ const Testimonials = () => {
               <SwiperSlide key={index}>
                 <div className="bg-gradient-to-br from-black/80 to-black/40 backdrop-blur-sm p-8 rounded-2xl h-full flex flex-col transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#ff3333]/10 border border-white/5">
                   {/* Quote Icon */}
-                  <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#ff3333] rounded-full flex items-center justify-center transform rotate-12">
+                  <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#b2071d] rounded-full flex items-center justify-center transform rotate-12">
                     <Quote className="w-6 h-6 text-white" />
                   </div>
                   
@@ -118,7 +118,7 @@ const Testimonials = () => {
                     {[...Array(5)].map((_, i) => (
                       <svg 
                         key={i}
-                        className="w-5 h-5 text-[#ff3333]"
+                        className="w-5 h-5 text-[#b2071d]"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                       >

@@ -21,17 +21,17 @@ const Hero = ({ scrollY }: HeroProps) => {
 
       <div className="container mx-auto relative z-10">
         <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-5xl pb-2 md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#ff3333] to-[#3366ff] gradient-animate">
+          <h1 className="text-5xl pb-2 md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#b2071d] to-[#3366ff] gradient-animate">
             {t('hero.title')}
           </h1>
           <p className="text-xl text-gray-300 mb-8">
             {t('hero.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://client.threadshost.com/register.php" className="bg-[#ff3333] hover:bg-[#cc0000] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105">
+            <a href="https://client.threadshost.com/register.php" className="bg-[#b2071d] hover:bg-[#cc0000] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105">
               {t('hero.startTrial')}
             </a>
-            <a className="border border-[#3366ff] hover:bg-[#3366ff]/10 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300">
+            <a href='https://client.threadshost.com/index.php?rp=/store/game-servers' className="border border-[#3366ff] hover:bg-[#3366ff]/10 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300">
               {t('hero.viewPlans')}
             </a>
           </div>
