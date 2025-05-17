@@ -26,6 +26,7 @@ Premium game server solutions for the most demanding players.
               <a href='https://www.facebook.com/profile.php?id=61576582041276'><img src='fb.png' className='w-8'/></a>
               <a href='https://instagram.com/ThreadsHost'><img src='ig.png' className='w-8'/></a>
               <a href='https://discord.gg/threadshost'><img src='dc.png' className='w-8'/></a>
+              <a href='https://www.tiktok.com/@threadshost'><img src='tk.png' className='w-8'/></a>
               
             </div>
             <div className="trustpilot-widget  relative right-12 p-2" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc"  data-businessunit-id="67b27d8e3abf0d2eed0d968d" data-style-height="43px" data-style-width="100%">
@@ -40,8 +41,8 @@ Premium game server solutions for the most demanding players.
               <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.about')}</a></li>
               <li><a href="https://client.threadshost.com/affiliates.php" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.partner')}</a></li>
               <li><a href="https://www.trustpilot.com/review/threadshost.com" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.trust')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.terms')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.privacy')}</a></li>
+              <li><a href="/terms.pdf" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.terms')}</a></li>
+              <li><a href="/privacy.pdf" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.privacy')}</a></li>
               
             </ul>
           </div>
@@ -50,7 +51,7 @@ Premium game server solutions for the most demanding players.
             <ul className="space-y-2 text-gray-400">
               <li><a href="https://discord.gg/threadshost" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.community')}</a></li>
               <li><a href="https://client.threadshost.com/submitticket.php" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.contact')}</a></li>
-              <li><a href="#" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.report')}</a></li>
+              <li><a href="https://threadshost.gitbook.io/threadshost/" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.report')}</a></li>
               <li><a href="https://status.threadshost.com/es" className="hover:text-[#3366ff] transition-colors duration-300">{t('footer.status')}</a></li>
             </ul>
           </div>

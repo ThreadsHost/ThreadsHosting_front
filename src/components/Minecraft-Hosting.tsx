@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Server, Cpu, HardDrive, Network, Check } from 'lucide-react';
 import Footer from './Footer';
 import Navbar from './Navbar';
+import { href } from 'react-router-dom';
 
 const MinecraftPlans = () => {
   const [isAnnual, setIsAnnual] = useState(false);
@@ -20,8 +21,10 @@ const MinecraftPlans = () => {
       },
       features: [
         "Acceso a FTP/SFTP",
-        "Soporte al cliente 24/7"
-      ]
+        "Soporte al cliente 24/7",
+        "Anti DDoS"
+      ],
+      href: "https://client.threadshost.com/index.php?rp=/store/game-servers/minecraft-carbon"
     },
     {
       name: "Cobre",
@@ -36,8 +39,10 @@ const MinecraftPlans = () => {
       },
       features: [
         "Acceso a FTP/SFTP",
-        "Soporte al cliente 24/7"
-      ]
+        "Soporte al cliente 24/7",
+        "Anti DDoS"
+      ],
+      href: "https://client.threadshost.com/index.php?rp=/store/game-servers/minecraft-cobre"
     },
     {
       name: "Hierro",
@@ -52,8 +57,10 @@ const MinecraftPlans = () => {
       },
       features: [
         "Acceso a FTP/SFTP",
-        "Soporte al cliente 24/7"
-      ]
+        "Soporte al cliente 24/7",
+        "Anti DDoS"
+      ],
+      href: "https://client.threadshost.com/index.php?rp=/store/game-servers/minecraft-hierro"
     },
     {
       name: "Oro",
@@ -69,8 +76,10 @@ const MinecraftPlans = () => {
       features: [
         "IP dedicada incluida",
         "Acceso a FTP/SFTP",
-        "Soporte al cliente 24/7"
-      ]
+        "Soporte al cliente 24/7",
+        "Anti DDoS"
+      ],
+      href: "https://client.threadshost.com/index.php?rp=/store/game-servers/minecraft-oro"
     },
     {
       name: "Esmeralda",
@@ -87,8 +96,10 @@ const MinecraftPlans = () => {
       features: [
         "IP dedicada incluida",
         "Acceso a FTP/SFTP",
-        "Soporte al cliente 24/7"
-      ]
+        "Soporte al cliente 24/7",
+        "Anti DDoS"
+      ],
+      href: "https://client.threadshost.com/index.php?rp=/store/game-servers/minecraft-esmeralda"
     },
     {
       name: "Diamante",
@@ -104,8 +115,10 @@ const MinecraftPlans = () => {
       features: [
         "IP dedicada incluida",
         "Acceso a FTP/SFTP",
-        "Soporte al cliente 24/7"
-      ]
+        "Soporte al cliente 24/7",
+        "Anti DDoS"
+      ],
+      href: "https://client.threadshost.com/index.php?rp=/store/game-servers/minecraft-diamante"
     }
   ];
 
@@ -225,9 +238,12 @@ const MinecraftPlans = () => {
                     ))}
                   </div>
 
-                  <button className="w-full py-3 rounded-lg font-semibold transition-all duration-300 bg-[#b2071d] text-white">
-                    Comprar
-                  </button>
+                  <button 
+  onClick={() => window.location.href = plan.href}
+  className="w-full py-3 rounded-lg font-semibold transition-all duration-300 bg-[#b2071d] text-white"
+>
+  Comprar
+</button>
                 </div>
               ))}
             </div>

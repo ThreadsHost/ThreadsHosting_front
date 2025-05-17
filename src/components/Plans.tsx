@@ -21,7 +21,8 @@ const Plans = () => {
       },
       features: [
         "Acceso a FTP/SFTP",
-        "Soporte al cliente 24/7"
+        "Soporte al cliente 24/7",
+        "Anti DDoS"
       ]
     },
     {
@@ -39,7 +40,9 @@ const Plans = () => {
       features: [
         "IP dedicada incluida",
         "Acceso a FTP/SFTP",
-        "Soporte al cliente 24/7"
+        "Soporte al cliente 24/7",
+        "Anti DDoS"
+
       ]
     },
     {
@@ -55,7 +58,8 @@ const Plans = () => {
       },
       features: [
         "Acceso a FTP/SFTP",
-        "Soporte al cliente 24/7"
+        "Soporte al cliente 24/7",
+        "Anti DDoS"
       ]
     },
    

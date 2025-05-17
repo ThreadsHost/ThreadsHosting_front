@@ -16,7 +16,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2" >
             <img src="/logo.png" className="w-12 h-12 text-[#ff3333] animate-float" />
-          <Link to={"/"}>    <span className="text-lg font-orbitron font-bold">ThreadsHost</span></Link>
+          <Link to={"/"}>    <span className="text-lg font-orbitron font-bold">ThreadsHost - Hosting Premium</span></Link>
           </div>
 
           {/* Desktop Menu */}
@@ -47,7 +47,7 @@ const Navbar = () => {
               {/* <a href="https://www.threadshost.com/#news" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.news')}
               </a> */}
-              <a href="https://www.threadshost.com/#doc" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
+              <a href="https://threadshost.gitbook.io/threadshost/" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">
                 {t('navlinks.doc')}
               </a>
                 <a href="https://www.threadshost.com/#doc" className="text-sm font-medium hover:text-[#3366ff] transition-all duration-300">

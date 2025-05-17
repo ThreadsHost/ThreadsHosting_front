@@ -9,7 +9,7 @@
     "status": "Status",
     "news": "News",
     "doc": "Documentation",
-    "about": "About us"
+    "about": "Contact"
   },
   "nav": {
     "about": "About",
@@ -41,7 +41,7 @@
     },
     "highPerformance": {
       "title": "High Performance",
-      "description": "Latest AMD EPYC processors and NVMe SSDs for maximum speed."
+      "description": "The best processors and NVMe SSDs for maximum speed."
     },
     "uptime": {
       "title": "99.99% Uptime",
@@ -130,7 +130,7 @@
       },
       "upgrade": {
         "question": "How do I access and manage my server?",
-        "answer": "We use the Pterodactyl Panel, an intuitive and easy-to-use platform where you can start, stop, restart, and manage your server from anywhere."
+        "answer": "We use ThreadsHost Panel, an intuitive and easy-to-use platform where you can start, stop, restart, and manage your server from anywhere."
       },
       "ddos": {
         "question": "Do you offer DDoS protection?",
@@ -154,7 +154,7 @@
   },
   "footer": {
     "company": "Company",
-    "about": "About Us",
+    "about": "Contact",
     "partner": "Affiliates",
     "trust": "Trustpilot",
     "support": "Support",
@@ -181,5 +181,23 @@
     "renew": "Renewals & Billing",
     "login": "Login",
     "register": "Register"
-}
+},
+"contact": {
+  "title": "Contact",
+  "ticket": {
+    "title": "Ticket Support",
+    "subtitle": "Open a ticket",
+    "description": "Enjoy a free consultation with ThreadsHost best support experts."
+  },
+  "email": {
+    "title": "Email Support",
+    "subtitle": "Email to support@threadshost.com",
+    "description": "Start chatting with our support center sending a mail to support@threadshost.com"
+  },
+  "discord": {
+    "title": "JOIN TO OUR DISCORD",
+    "subtitle": "Click Here and start chatting with us",
+    "description": "Click Here and start chatting with usand our community"
+  }
+  }
 }

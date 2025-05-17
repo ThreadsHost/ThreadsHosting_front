@@ -7,6 +7,7 @@ import Plans from '../components/Plans';
 import Testimonials from '../components/Testimonials';
 import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
+import Contact from '../components/Contact';
 
 function Home() {
   const [scrollY, setScrollY] = useState(0);
@@ -36,6 +37,9 @@ function Home() {
         </section>
         <section id="features" className="features-section">
           <Features />
+        </section>
+        <section id="features" className="features-section">
+          <Contact/>
         </section>
         <section id="faq" className="faq-section">
           <FAQ />

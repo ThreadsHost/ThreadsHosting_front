@@ -9,7 +9,7 @@
     "status": "Estado",
     "news": "News",
     "doc": "Documentacion",
-    "about": "Sobre Nosotros"
+    "about": "Contacto"
   },
   "nav": {
     "about": "Acerca de",
@@ -41,7 +41,7 @@
     },
     "highPerformance": {
       "title": "Alto Rendimiento",
-      "description": "Últimos procesadores AMD EPYC y SSD NVMe para máxima velocidad."
+      "description": "Los mejores procesadores  y SSD NVMe para máxima velocidad."
     },
     "uptime": {
       "title": "99.99% de Disponibilidad",
@@ -130,7 +130,7 @@
       },
       "upgrade": {
         "question": "¿Cómo accedo y administro mi servidor?",
-        "answer": "Utilizamos el Panel Pterodactyl, una plataforma intuitiva y fácil de usar donde puedes iniciar, detener, reiniciar y administrar tu servidor desde cualquier lugar."
+        "answer": "Utilizamos ThreadsHost Panel, una plataforma intuitiva y fácil de usar donde puedes iniciar, detener, reiniciar y administrar tu servidor desde cualquier lugar."
       },
       "ddos": {
         "question": "¿Tienen protección contra ataques DDoS?",
@@ -154,7 +154,7 @@
   },
   "footer": {
     "company": "Empresa",
-    "about": "Sobre Nosotros",
+    "about": "Contacto",
     "partner": "Afiliados",
     "trust": "Trustpilot",
     "support": "Soporte",
@@ -181,5 +181,25 @@
     "renew": "Renovaciones y Facturación",
     "login": "Iniciar sesión",
     "register": "Registrarse"
-  }
+  },
+  
+    "contact": {
+      "title": "Contacto",
+      "ticket": {
+        "title": "Soporte por Ticket",
+        "subtitle": "Abrir un ticket",
+        "description": "Disfruta de una consulta gratuita con los mejores expertos de soporte de ThreadsHost."
+      },
+      "email": {
+        "title": "Soporte por Email",
+        "subtitle": "Envía un correo a support@threadshost.com",
+        "description": "Comienza a chatear con nuestro centro de soporte enviando un correo a support@threadshost.com"
+      },
+      "discord": {
+        "title": "ÚNETE A NUESTRO DISCORD",
+        "subtitle": "Haz clic aquí y comienza a chatear con nosotros",
+        "description": "Haz clic aquí y comienza a chatear con nosotros y nuestra comunidad"
+      }
+    }
+  
 }
