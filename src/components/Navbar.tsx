@@ -16,7 +16,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2" >
             <img src="/logo.png" className="w-12 h-12 text-[#ff3333] animate-float" />
-          <Link to={"/"}>    <span className="text-lg font-orbitron font-bold">ThreadsHost - Hosting Premium</span></Link>
+          <Link to={"/"}>    <span className="text-lg font-orbitron font-bold">ThreadsHost</span></Link>
           </div>
 
           {/* Desktop Menu */}
